@@ -12,48 +12,74 @@ const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 const USAMap: React.FC = () => {
   const { electionData, filters, setSelectedRace } = useElectionStore();
 
-  // Group races by state
+  // Group races by state and calculate vote percentages
   const stateResults = electionData.races.reduce((acc, race) => {
     if (!acc[race.state]) {
       acc[race.state] = {
-        democrat: 0,
-        republican: 0,
-        other: 0,
-        total: 0
+        democratVotes: 0,
+        republicanVotes: 0,
+        totalVotes: 0,
+        margin: 0,
+        leader: null as 'democrat' | 'republican' | null
       };
     }
     
-    if (race.called && race.winner) {
-      const winningCandidate = race.candidates.find(c => c.id === race.winner);
-      if (winningCandidate) {
-        acc[race.state][winningCandidate.party]++;
-        acc[race.state].total++;
+    // Sum up votes for each party
+    race.candidates.forEach(candidate => {
+      if (candidate.party === 'democrat') {
+        acc[race.state].democratVotes += candidate.votes;
+      } else if (candidate.party === 'republican') {
+        acc[race.state].republicanVotes += candidate.votes;
       }
+    });
+    
+    // Calculate total votes and winning margin
+    acc[race.state].totalVotes = acc[race.state].democratVotes + acc[race.state].republicanVotes;
+    
+    if (acc[race.state].totalVotes > 0) {
+      const demPercent = (acc[race.state].democratVotes / acc[race.state].totalVotes) * 100;
+      const repPercent = (acc[race.state].republicanVotes / acc[race.state].totalVotes) * 100;
+      acc[race.state].margin = Math.abs(demPercent - repPercent);
+      acc[race.state].leader = demPercent > repPercent ? 'democrat' : 'republican';
     }
     
     return acc;
-  }, {} as Record<string, { democrat: number; republican: number; other: number; total: number }>);
+  }, {} as Record<string, {
+    democratVotes: number;
+    republicanVotes: number;
+    totalVotes: number;
+    margin: number;
+    leader: 'democrat' | 'republican' | null;
+  }>);
 
-  // Get state color based on results
+  // Get state color based on results and margin
   const getStateColor = (stateName: string) => {
     const results = stateResults[stateName];
-    if (!results) return "#e5e7eb"; // Neutral gray for no data
+    if (!results || results.totalVotes === 0) return "#e5e7eb"; // Neutral gray for no data
     
-    const { democrat, republican, total } = results;
-    if (total === 0) return "#e5e7eb";
+    const { margin, leader } = results;
     
-    const demShare = democrat / total;
-    const repShare = republican / total;
+    // Calculate color intensity based on margin
+    // Max intensity at 20% margin, min intensity at 1% margin
+    const intensity = Math.min(Math.max(margin / 20, 0.2), 1);
     
-    if (demShare > repShare) {
-      const intensity = Math.min(0.2 + demShare * 0.8, 1);
-      return `rgba(37, 99, 235, ${intensity})`; // Democrat blue
-    } else if (repShare > demShare) {
-      const intensity = Math.min(0.2 + repShare * 0.8, 1);
-      return `rgba(220, 38, 38, ${intensity})`; // Republican red
+    if (leader === 'democrat') {
+      // Democrat blue with varying intensity
+      return `rgba(37, 99, 235, ${intensity})`;
+    } else {
+      // Republican red with varying intensity
+      return `rgba(220, 38, 38, ${intensity})`;
     }
+  };
+
+  // Format margin for tooltip
+  const getMarginText = (stateName: string) => {
+    const results = stateResults[stateName];
+    if (!results || results.totalVotes === 0) return "No data";
     
-    return "#e5e7eb";
+    const { margin, leader } = results;
+    const partyName = leader === 'democrat' ? 'Democratic' : 'Republican';
+    return `${partyName} +${margin.toFixed(1)}%`;
   };
 
   return (
@@ -89,13 +115,12 @@ const USAMap: React.FC = () => {
                         }
                       }}
                       onClick={() => {
-                        if (results?.total > 0) {
-                          const stateRaces = electionData.races.filter(r => r.state === stateName);
-                          if (stateRaces.length > 0) {
-                            setSelectedRace(stateRaces[0].id);
-                          }
+                        const stateRaces = electionData.races.filter(r => r.state === stateName);
+                        if (stateRaces.length > 0) {
+                          setSelectedRace(stateRaces[0].id);
                         }
                       }}
+                      title={`${stateName}: ${getMarginText(stateName)}`}
                     />
                   );
                 })
@@ -105,17 +130,25 @@ const USAMap: React.FC = () => {
         </ComposableMap>
       </div>
       
-      <div className="flex justify-center space-x-4 mt-4 text-sm">
-        <div className="flex items-center">
-          <div className="w-4 h-4 bg-democrat-500 rounded mr-2"></div>
-          <span>Democrat</span>
+      <div className="flex justify-center space-x-6 mt-4 text-sm">
+        <div className="flex items-center space-x-2">
+          <div className="flex space-x-1">
+            <div className="w-4 h-4 bg-democrat-500 opacity-30 rounded"></div>
+            <div className="w-4 h-4 bg-democrat-500 opacity-60 rounded"></div>
+            <div className="w-4 h-4 bg-democrat-500 opacity-100 rounded"></div>
+          </div>
+          <span>Democratic Lead</span>
         </div>
-        <div className="flex items-center">
-          <div className="w-4 h-4 bg-republican-500 rounded mr-2"></div>
-          <span>Republican</span>
+        <div className="flex items-center space-x-2">
+          <div className="flex space-x-1">
+            <div className="w-4 h-4 bg-republican-500 opacity-30 rounded"></div>
+            <div className="w-4 h-4 bg-republican-500 opacity-60 rounded"></div>
+            <div className="w-4 h-4 bg-republican-500 opacity-100 rounded"></div>
+          </div>
+          <span>Republican Lead</span>
         </div>
-        <div className="flex items-center">
-          <div className="w-4 h-4 bg-neutral-200 dark:bg-neutral-600 rounded mr-2"></div>
+        <div className="flex items-center space-x-2">
+          <div className="w-4 h-4 bg-neutral-200 dark:bg-neutral-600 rounded"></div>
           <span>No Data</span>
         </div>
       </div>
