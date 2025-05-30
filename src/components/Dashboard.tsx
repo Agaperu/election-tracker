@@ -4,6 +4,7 @@ import RaceCard from './RaceCard';
 import SourcesPanel from './SourcesPanel';
 import FiltersPanel from './FiltersPanel';
 import StatsOverview from './StatsOverview';
+import USAMap from './USAMap';
 import { generateMockElectionData } from '../utils/mockData';
 import { ElectionData } from '../types';
 
@@ -89,6 +90,7 @@ const Dashboard: React.FC = () => {
         {/* Main content area */}
         <div className="lg:col-span-3 space-y-6">
           <StatsOverview />
+          <USAMap />
           
           {/* Race cards */}
           <div>
