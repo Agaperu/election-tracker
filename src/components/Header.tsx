@@ -32,7 +32,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <Activity className="h-6 w-6 text-primary-600" />
-            <h1 className="text-xl font-bold text-neutral-900 dark:text-white">Election Tracker</h1>
+            <h1 className="text-xl font-bold text-neutral-900 dark:text-white">American Viewpoint Election Data Tracker</h1>
           </div>
           
           <div className="flex items-center space-x-2 text-sm text-neutral-500 dark:text-neutral-400">
