@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import {
   ComposableMap,
   Geographies,
@@ -14,6 +14,7 @@ const USAMap: React.FC = () => {
   const { electionData, filters, setSelectedRace } = useElectionStore();
   const [isExpanded, setIsExpanded] = useState(true);
   const [tooltip, setTooltip] = useState<{ content: string; x: number; y: number } | null>(null);
+  const mapRef = useRef<HTMLDivElement>(null);
 
   // Group races by state and calculate vote percentages
   const stateResults = electionData.races.reduce((acc, race) => {
@@ -79,6 +80,24 @@ const USAMap: React.FC = () => {
            `${leader === 'democrat' ? 'Democratic' : 'Republican'} lead: ${margin.toFixed(1)}%`;
   };
 
+  const handleMouseMove = (e: React.MouseEvent, geo: any) => {
+    if (!mapRef.current) return;
+    
+    const mapRect = mapRef.current.getBoundingClientRect();
+    const centroid = geo.properties.centroid || [0, 0];
+    const projection = geo.projection || { scale: 1, translate: [0, 0] };
+    
+    // Convert geo coordinates to pixel coordinates
+    const x = (centroid[0] * projection.scale + projection.translate[0]) / 1000 * mapRect.width;
+    const y = (centroid[1] * projection.scale + projection.translate[1]) / 1000 * mapRect.height;
+    
+    setTooltip({
+      content: getTooltipContent(geo.properties.name),
+      x: x + mapRect.left,
+      y: y + mapRect.top
+    });
+  };
+
   return (
     <div className="card">
       <div 
@@ -92,7 +111,7 @@ const USAMap: React.FC = () => {
       <div className={`transition-all duration-300 ease-in-out overflow-hidden ${
         isExpanded ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
       }`}>
-        <div className="w-full aspect-[4/3] relative mt-4">
+        <div className="w-full aspect-[4/3] relative mt-4" ref={mapRef}>
           <div 
             className="absolute z-10 pointer-events-none bg-white dark:bg-neutral-800 rounded-md shadow-lg p-2 text-sm"
             style={{
@@ -128,14 +147,8 @@ const USAMap: React.FC = () => {
                           },
                           pressed: { outline: "none" }
                         }}
-                        onMouseEnter={(evt) => {
-                          const bounds = evt.currentTarget.getBoundingClientRect();
-                          setTooltip({
-                            content: getTooltipContent(stateName),
-                            x: bounds.left + bounds.width / 2,
-                            y: bounds.top
-                          });
-                        }}
+                        onMouseEnter={(evt) => handleMouseMove(evt, geo)}
+                        onMouseMove={(evt) => handleMouseMove(evt, geo)}
                         onMouseLeave={() => setTooltip(null)}
                         onClick={() => {
                           const stateRaces = electionData.races.filter(r => r.state === stateName);
