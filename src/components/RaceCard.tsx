@@ -1,6 +1,6 @@
 import React from 'react';
 import { formatDistance } from 'date-fns';
-import { AlertCircle, Check, ChevronRight } from 'lucide-react';
+import { AlertCircle, Check, ChevronRight, MapPin } from 'lucide-react';
 import { Race } from '../types';
 import useElectionStore from '../store/electionStore';
 
@@ -12,10 +12,8 @@ const RaceCard: React.FC<RaceCardProps> = ({ race }) => {
   const { setSelectedRace, selectedRace } = useElectionStore();
   const isSelected = selectedRace === race.id;
   
-  // Sort candidates by votes (descending)
   const sortedCandidates = [...race.candidates].sort((a, b) => b.votes - a.votes);
   
-  // Format last updated time
   const lastUpdatedTime = formatDistance(
     new Date(race.lastUpdated),
     new Date(),
@@ -30,7 +28,13 @@ const RaceCard: React.FC<RaceCardProps> = ({ race }) => {
       onClick={() => setSelectedRace(race.id)}
     >
       <div className="flex justify-between items-start mb-3">
-        <h3 className="font-semibold text-lg">{race.title}</h3>
+        <div>
+          <h3 className="font-semibold text-lg">{race.title}</h3>
+          <div className="flex items-center text-sm text-neutral-500 dark:text-neutral-400 mt-1">
+            <MapPin className="h-4 w-4 mr-1" />
+            <span>{race.state}</span>
+          </div>
+        </div>
         {race.called && (
           <span className="badge badge-other flex items-center space-x-1">
             <Check className="h-3 w-3" />

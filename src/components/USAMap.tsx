@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   ComposableMap,
   Geographies,
   Geography,
   ZoomableGroup
 } from 'react-simple-maps';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 import useElectionStore from '../store/electionStore';
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
 const USAMap: React.FC = () => {
   const { electionData, filters, setSelectedRace } = useElectionStore();
+  const [isExpanded, setIsExpanded] = useState(true);
+  const [tooltip, setTooltip] = useState<{ content: string; x: number; y: number } | null>(null);
 
   // Group races by state and calculate vote percentages
   const stateResults = electionData.races.reduce((acc, race) => {
@@ -24,7 +27,6 @@ const USAMap: React.FC = () => {
       };
     }
     
-    // Sum up votes for each party
     race.candidates.forEach(candidate => {
       if (candidate.party === 'democrat') {
         acc[race.state].democratVotes += candidate.votes;
@@ -33,7 +35,6 @@ const USAMap: React.FC = () => {
       }
     });
     
-    // Calculate total votes and winning margin
     acc[race.state].totalVotes = acc[race.state].democratVotes + acc[race.state].republicanVotes;
     
     if (acc[race.state].totalVotes > 0) {
@@ -52,104 +53,126 @@ const USAMap: React.FC = () => {
     leader: 'democrat' | 'republican' | null;
   }>);
 
-  // Get state color based on results and margin
   const getStateColor = (stateName: string) => {
     const results = stateResults[stateName];
-    if (!results || results.totalVotes === 0) return "#e5e7eb"; // Neutral gray for no data
+    if (!results || results.totalVotes === 0) return "#e5e7eb";
     
     const { margin, leader } = results;
-    
-    // Calculate color intensity based on margin
-    // Max intensity at 20% margin, min intensity at 1% margin
     const intensity = Math.min(Math.max(margin / 20, 0.2), 1);
     
-    if (leader === 'democrat') {
-      // Democrat blue with varying intensity
-      return `rgba(37, 99, 235, ${intensity})`;
-    } else {
-      // Republican red with varying intensity
-      return `rgba(220, 38, 38, ${intensity})`;
-    }
+    return leader === 'democrat'
+      ? `rgba(37, 99, 235, ${intensity})`
+      : `rgba(220, 38, 38, ${intensity})`;
   };
 
-  // Format margin for tooltip
-  const getMarginText = (stateName: string) => {
+  const getTooltipContent = (stateName: string) => {
     const results = stateResults[stateName];
-    if (!results || results.totalVotes === 0) return "No data";
+    if (!results || results.totalVotes === 0) return `${stateName}\nNo data available`;
     
-    const { margin, leader } = results;
-    const partyName = leader === 'democrat' ? 'Democratic' : 'Republican';
-    return `${partyName} +${margin.toFixed(1)}%`;
+    const { margin, leader, democratVotes, republicanVotes } = results;
+    const demPercent = (democratVotes / results.totalVotes * 100).toFixed(1);
+    const repPercent = (republicanVotes / results.totalVotes * 100).toFixed(1);
+    
+    return `${stateName}\n` +
+           `Democratic: ${demPercent}%\n` +
+           `Republican: ${repPercent}%\n` +
+           `${leader === 'democrat' ? 'Democratic' : 'Republican'} lead: ${margin.toFixed(1)}%`;
   };
 
   return (
     <div className="card">
-      <h2 className="text-lg font-semibold mb-4">Election Results Map</h2>
-      <div className="w-full aspect-[4/3] relative">
-        <ComposableMap projection="geoAlbersUsa">
-          <ZoomableGroup>
-            <Geographies geography={geoUrl}>
-              {({ geographies }) =>
-                geographies.map(geo => {
-                  const stateName = geo.properties.name;
-                  const results = stateResults[stateName];
-                  
-                  return (
-                    <Geography
-                      key={geo.rsmKey}
-                      geography={geo}
-                      fill={getStateColor(stateName)}
-                      stroke="#ffffff"
-                      strokeWidth={0.5}
-                      style={{
-                        default: {
-                          outline: "none",
-                        },
-                        hover: {
-                          fill: "#93c5fd",
-                          outline: "none",
-                          cursor: "pointer"
-                        },
-                        pressed: {
-                          outline: "none"
-                        }
-                      }}
-                      onClick={() => {
-                        const stateRaces = electionData.races.filter(r => r.state === stateName);
-                        if (stateRaces.length > 0) {
-                          setSelectedRace(stateRaces[0].id);
-                        }
-                      }}
-                      title={`${stateName}: ${getMarginText(stateName)}`}
-                    />
-                  );
-                })
-              }
-            </Geographies>
-          </ZoomableGroup>
-        </ComposableMap>
+      <div 
+        className="flex items-center justify-between cursor-pointer"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        <h2 className="text-lg font-semibold">Election Results Map</h2>
+        {isExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
       </div>
-      
-      <div className="flex justify-center space-x-6 mt-4 text-sm">
-        <div className="flex items-center space-x-2">
-          <div className="flex space-x-1">
-            <div className="w-4 h-4 bg-democrat-500 opacity-30 rounded"></div>
-            <div className="w-4 h-4 bg-democrat-500 opacity-60 rounded"></div>
-            <div className="w-4 h-4 bg-democrat-500 opacity-100 rounded"></div>
+
+      <div className={`transition-all duration-300 ease-in-out overflow-hidden ${
+        isExpanded ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
+      }`}>
+        <div className="w-full aspect-[4/3] relative mt-4">
+          <div 
+            className="absolute z-10 pointer-events-none bg-white dark:bg-neutral-800 rounded-md shadow-lg p-2 text-sm"
+            style={{
+              display: tooltip ? 'block' : 'none',
+              left: tooltip?.x ?? 0,
+              top: tooltip?.y ?? 0,
+              transform: 'translate(-50%, -100%)',
+              whiteSpace: 'pre-line'
+            }}
+          >
+            {tooltip?.content}
           </div>
-          <span>Democratic Lead</span>
+
+          <ComposableMap projection="geoAlbersUsa">
+            <ZoomableGroup>
+              <Geographies geography={geoUrl}>
+                {({ geographies }) =>
+                  geographies.map(geo => {
+                    const stateName = geo.properties.name;
+                    return (
+                      <Geography
+                        key={geo.rsmKey}
+                        geography={geo}
+                        fill={getStateColor(stateName)}
+                        stroke="#ffffff"
+                        strokeWidth={0.5}
+                        style={{
+                          default: { outline: "none" },
+                          hover: {
+                            fill: "#93c5fd",
+                            outline: "none",
+                            cursor: "pointer"
+                          },
+                          pressed: { outline: "none" }
+                        }}
+                        onMouseEnter={(evt) => {
+                          const bounds = evt.currentTarget.getBoundingClientRect();
+                          setTooltip({
+                            content: getTooltipContent(stateName),
+                            x: bounds.left + bounds.width / 2,
+                            y: bounds.top
+                          });
+                        }}
+                        onMouseLeave={() => setTooltip(null)}
+                        onClick={() => {
+                          const stateRaces = electionData.races.filter(r => r.state === stateName);
+                          if (stateRaces.length > 0) {
+                            setSelectedRace(stateRaces[0].id);
+                          }
+                        }}
+                      />
+                    );
+                  })
+                }
+              </Geographies>
+            </ZoomableGroup>
+          </ComposableMap>
         </div>
-        <div className="flex items-center space-x-2">
-          <div className="flex space-x-1">
-            <div className="w-4 h-4 bg-republican-500 opacity-30 rounded"></div>
-            <div className="w-4 h-4 bg-republican-500 opacity-60 rounded"></div>
-            <div className="w-4 h-4 bg-republican-500 opacity-100 rounded"></div>
+        
+        <div className="flex justify-center space-x-6 mt-4 text-sm">
+          <div className="flex items-center space-x-2">
+            <div className="flex space-x-1">
+              <div className="w-4 h-4 bg-democrat-500 opacity-30 rounded"></div>
+              <div className="w-4 h-4 bg-democrat-500 opacity-60 rounded"></div>
+              <div className="w-4 h-4 bg-democrat-500 opacity-100 rounded"></div>
+            </div>
+            <span>Democratic Lead</span>
           </div>
-          <span>Republican Lead</span>
-        </div>
-        <div className="flex items-center space-x-2">
-          <div className="w-4 h-4 bg-neutral-200 dark:bg-neutral-600 rounded"></div>
-          <span>No Data</span>
+          <div className="flex items-center space-x-2">
+            <div className="flex space-x-1">
+              <div className="w-4 h-4 bg-republican-500 opacity-30 rounded"></div>
+              <div className="w-4 h-4 bg-republican-500 opacity-60 rounded"></div>
+              <div className="w-4 h-4 bg-republican-500 opacity-100 rounded"></div>
+            </div>
+            <span>Republican Lead</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="w-4 h-4 bg-neutral-200 dark:bg-neutral-600 rounded"></div>
+            <span>No Data</span>
+          </div>
         </div>
       </div>
     </div>
