@@ -80,21 +80,17 @@ const USAMap: React.FC = () => {
            `${leader === 'democrat' ? 'Democratic' : 'Republican'} lead: ${margin.toFixed(1)}%`;
   };
 
-  const handleMouseMove = (e: React.MouseEvent, geo: any) => {
+  const handleMouseMove = (e: React.MouseEvent, stateName: string) => {
     if (!mapRef.current) return;
     
-    const mapRect = mapRef.current.getBoundingClientRect();
-    const centroid = geo.properties.centroid || [0, 0];
-    const projection = geo.projection || { scale: 1, translate: [0, 0] };
-    
-    // Convert geo coordinates to pixel coordinates
-    const x = (centroid[0] * projection.scale + projection.translate[0]) / 1000 * mapRect.width;
-    const y = (centroid[1] * projection.scale + projection.translate[1]) / 1000 * mapRect.height;
+    const rect = mapRef.current.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
     
     setTooltip({
-      content: getTooltipContent(geo.properties.name),
-      x: x + mapRect.left,
-      y: y + mapRect.top
+      content: getTooltipContent(stateName),
+      x,
+      y
     });
   };
 
@@ -117,7 +113,7 @@ const USAMap: React.FC = () => {
             style={{
               display: tooltip ? 'block' : 'none',
               left: tooltip?.x ?? 0,
-              top: tooltip?.y ?? 0,
+              top: (tooltip?.y ?? 0) - 10,
               transform: 'translate(-50%, -100%)',
               whiteSpace: 'pre-line'
             }}
@@ -147,8 +143,8 @@ const USAMap: React.FC = () => {
                           },
                           pressed: { outline: "none" }
                         }}
-                        onMouseEnter={(evt) => handleMouseMove(evt, geo)}
-                        onMouseMove={(evt) => handleMouseMove(evt, geo)}
+                        onMouseEnter={(evt) => handleMouseMove(evt, stateName)}
+                        onMouseMove={(evt) => handleMouseMove(evt, stateName)}
                         onMouseLeave={() => setTooltip(null)}
                         onClick={() => {
                           const stateRaces = electionData.races.filter(r => r.state === stateName);
