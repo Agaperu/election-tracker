@@ -47,7 +47,7 @@ export const generateMockRace = (id: string, state: string, type: Race['type']):
   let title = '';
   switch (type) {
     case 'presidential':
-      title = 'Presidential Election';
+      title = `Presidential Election - ${state}`;
       break;
     case 'senate':
       title = `U.S. Senate - ${state}`;
