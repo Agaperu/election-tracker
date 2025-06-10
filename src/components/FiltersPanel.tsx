@@ -5,9 +5,9 @@ import useElectionStore from '../store/electionStore';
 const FiltersPanel: React.FC = () => {
   const { filters, updateFilters } = useElectionStore();
 
-  // Get all US states
+  // Get all US states plus focus on Texas
   const states = [
-    'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
+    'Texas', 'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
     'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia',
     'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa',
     'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland',
@@ -15,7 +15,7 @@ const FiltersPanel: React.FC = () => {
     'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey',
     'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio',
     'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina',
-    'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+    'South Dakota', 'Tennessee', 'Utah', 'Vermont',
     'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
   ];
 
@@ -24,6 +24,10 @@ const FiltersPanel: React.FC = () => {
     { value: 'senate', label: 'Senate' },
     { value: 'house', label: 'House' },
     { value: 'governor', label: 'Governor' },
+    { value: 'mayor', label: 'Mayor' },
+    { value: 'judicial', label: 'Judicial' },
+    { value: 'sheriff', label: 'Sheriff' },
+    { value: 'district-attorney', label: 'District Attorney' },
     { value: 'other', label: 'Other' },
   ];
 
@@ -49,7 +53,7 @@ const FiltersPanel: React.FC = () => {
               id="search"
               value={filters.search}
               onChange={(e) => updateFilters({ search: e.target.value })}
-              placeholder="Candidate, race, state..."
+              placeholder="Candidate, race, county..."
               className="w-full pl-10 pr-3 py-2 border border-neutral-300 dark:border-neutral-600 rounded-md bg-white dark:bg-neutral-700 text-sm"
             />
           </div>

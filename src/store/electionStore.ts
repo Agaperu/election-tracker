@@ -36,39 +36,39 @@ interface ElectionStore {
   setIsLoading: (loading: boolean) => void;
 }
 
-// Initial scrape configuration
+// Initial scrape configuration - updated for Dallas County
 const initialScrapeConfig: ScrapeConfig = {
   sources: [
+    {
+      id: 'dallas-county',
+      name: 'Dallas County Elections',
+      url: 'https://results.enr.clarityelections.com/TX/Dallas/123851/web.345435',
+      enabled: true,
+      scrapingInterval: 30000, // 30 seconds for live election data
+    },
     {
       id: 'ap',
       name: 'Associated Press',
       url: 'https://apnews.com/hub/election-results',
-      enabled: true,
-      scrapingInterval: 60000, // 1 minute
+      enabled: false, // Disabled by default, focus on Dallas County
+      scrapingInterval: 60000,
     },
     {
       id: 'nyt',
       name: 'New York Times',
       url: 'https://www.nytimes.com/elections',
-      enabled: true,
+      enabled: false,
       scrapingInterval: 60000,
     },
     {
       id: 'cnn',
       name: 'CNN',
       url: 'https://www.cnn.com/election/results',
-      enabled: true,
-      scrapingInterval: 60000,
-    },
-    {
-      id: 'fox',
-      name: 'Fox News',
-      url: 'https://www.foxnews.com/elections',
-      enabled: true,
+      enabled: false,
       scrapingInterval: 60000,
     },
   ],
-  refreshInterval: 60000, // 1 minute
+  refreshInterval: 30000, // 30 seconds for live updates
   isRunning: false,
 };
 
@@ -76,9 +76,9 @@ const initialScrapeConfig: ScrapeConfig = {
 const initialSettings: SettingsState = {
   darkMode: false,
   autoRefresh: true,
-  refreshInterval: 60000, // 1 minute
+  refreshInterval: 30000, // 30 seconds
   notifications: true,
-  focusedStates: [],
+  focusedStates: ['Texas'],
   focusedRaces: [],
 };
 

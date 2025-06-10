@@ -21,70 +21,70 @@ const RATE_LIMIT = {
   minDelayBetweenRequests: 1000, // 1 second
 };
 
-// Source configurations with detailed selectors
+// Source configurations with detailed selectors for Dallas County
 const sources = [
   {
-    id: 'ap',
-    name: 'Associated Press',
-    baseUrl: 'https://apnews.com/hub/election-results',
+    id: 'dallas-county',
+    name: 'Dallas County Elections',
+    baseUrl: 'https://results.enr.clarityelections.com/TX/Dallas/123851/web.345435',
+    apiUrl: 'https://results.enr.clarityelections.com/TX/Dallas/123851/json/en/summary.json',
     selectors: {
-      raceContainer: '.race-container',
-      candidateRow: '.candidate-row',
+      raceContainer: '.contest',
+      candidateRow: '.candidate',
       candidateName: '.candidate-name',
-      candidateParty: '.party-affiliation',
-      voteCount: '.vote-count',
-      precincts: '.precinct-reporting',
-    },
-    transformData: ($, element) => {
-      // AP-specific data transformation
-      const race = {
-        title: $(element).find('.race-title').text().trim(),
-        state: $(element).find('.state-name').text().trim(),
-        candidates: [],
-        precincts: {
-          reporting: 0,
-          total: 0,
-          percentage: 0,
-        },
-      };
-
-      $(element).find('.candidate-row').each((_, candidateEl) => {
-        const $candidate = $(candidateEl);
-        race.candidates.push({
-          name: $candidate.find('.candidate-name').text().trim(),
-          party: $candidate.find('.party-affiliation').text().trim().toLowerCase(),
-          votes: parseInt($candidate.find('.vote-count').text().replace(/,/g, ''), 10),
-          percentage: parseFloat($candidate.find('.vote-percentage').text()),
-        });
-      });
-
-      const precinctText = $(element).find('.precinct-reporting').text();
-      const [reporting, total] = precinctText.match(/\d+/g).map(Number);
-      race.precincts = {
-        reporting,
-        total,
-        percentage: (reporting / total) * 100,
-      };
-
-      return race;
-    },
-  },
-  {
-    id: 'nyt',
-    name: 'New York Times',
-    baseUrl: 'https://www.nytimes.com/interactive/2024/us/elections/results',
-    selectors: {
-      raceContainer: '.nyt-race',
-      candidateRow: '.candidate-row',
-      candidateName: '.name',
       candidateParty: '.party',
       voteCount: '.votes',
-      precincts: '.precincts',
+      percentage: '.percentage',
+      precincts: '.precincts-reporting',
     },
-    transformData: ($, element) => {
-      // NYT-specific data transformation
-      // Similar structure to AP but with NYT-specific selectors
-      return {/* NYT race data structure */};
+    transformData: async (data) => {
+      // Handle JSON API response from Clarity Elections
+      if (data.Contests) {
+        return data.Contests.map(contest => {
+          const race = {
+            id: `dallas-${contest.C}`,
+            title: contest.N || 'Unknown Contest',
+            state: 'Texas',
+            county: 'Dallas',
+            type: determineRaceType(contest.N),
+            candidates: [],
+            precincts: {
+              reporting: contest.PR || 0,
+              total: contest.PT || 0,
+              percentage: contest.PT > 0 ? Math.round((contest.PR / contest.PT) * 100) : 0,
+            },
+            lastUpdated: new Date().toISOString(),
+            called: false,
+            isLive: true,
+          };
+
+          // Process candidates
+          if (contest.CH) {
+            contest.CH.forEach(candidate => {
+              race.candidates.push({
+                id: `${race.id}-${candidate.CID}`,
+                name: candidate.N || 'Unknown Candidate',
+                party: normalizeParty(candidate.P || ''),
+                votes: parseInt(candidate.V || 0),
+                percentage: parseFloat(candidate.VP || 0),
+                incumbent: (candidate.N || '').includes('(I)'),
+              });
+            });
+          }
+
+          // Determine if race is called
+          race.called = determineIfCalled(race);
+          if (race.called && race.candidates.length > 0) {
+            const winner = race.candidates.reduce((prev, current) => 
+              prev.votes > current.votes ? prev : current
+            );
+            race.winner = winner.id;
+          }
+
+          return race;
+        });
+      }
+      return [];
     },
   },
 ];
@@ -92,10 +92,12 @@ const sources = [
 // Axios instance with retry logic
 const createAxiosInstance = (source) => {
   const instance = axios.create({
-    baseURL: source.baseUrl,
     timeout: 30000,
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Accept': 'application/json, text/html, */*',
+      'Accept-Language': 'en-US,en;q=0.9',
+      'Cache-Control': 'no-cache',
     },
   });
 
@@ -139,82 +141,141 @@ async function scrapeSource(source, rateLimiter) {
   
   try {
     await rateLimiter.acquireToken();
-    const response = await axios.get('');
-    const $ = cheerio.load(response.data);
     
-    const races = [];
-    $(source.selectors.raceContainer).each((_, element) => {
-      try {
-        const raceData = source.transformData($, element);
-        races.push(raceData);
-      } catch (error) {
-        console.error(`Error parsing race data from ${source.name}:`, error);
-      }
-    });
+    // Try to get JSON data first (preferred for Clarity Elections)
+    let races = [];
+    
+    try {
+      console.log(`Attempting to fetch JSON data from: ${source.apiUrl}`);
+      const jsonResponse = await axios.get(source.apiUrl);
+      races = await source.transformData(jsonResponse.data);
+      console.log(`Successfully parsed ${races.length} races from JSON API`);
+    } catch (jsonError) {
+      console.log('JSON API failed, trying HTML scraping...');
+      
+      // Fallback to HTML scraping
+      const htmlResponse = await axios.get(source.baseUrl);
+      const $ = cheerio.load(htmlResponse.data);
+      
+      // Try to extract data from HTML
+      const htmlRaces = [];
+      $('.contest, .race-container, [data-contest]').each((_, element) => {
+        try {
+          const $contest = $(element);
+          const contestName = $contest.find('.contest-name, .race-title, h3, h4').first().text().trim();
+          
+          if (contestName) {
+            const race = {
+              id: `dallas-html-${Date.now()}-${Math.random()}`,
+              title: contestName,
+              state: 'Texas',
+              county: 'Dallas',
+              type: determineRaceType(contestName),
+              candidates: [],
+              precincts: {
+                reporting: 0,
+                total: 0,
+                percentage: 0,
+              },
+              lastUpdated: new Date().toISOString(),
+              called: false,
+              isLive: true,
+            };
+
+            // Extract candidates
+            $contest.find('.candidate, .candidate-row, tr').each((_, candidateEl) => {
+              const $candidate = $(candidateEl);
+              const name = $candidate.find('.candidate-name, .name, td:first-child').text().trim();
+              const votes = $candidate.find('.votes, .vote-count, td:nth-child(2)').text().replace(/[^\d]/g, '');
+              const percentage = $candidate.find('.percentage, .percent, td:nth-child(3)').text().replace(/[^\d.]/g, '');
+              
+              if (name && votes) {
+                race.candidates.push({
+                  id: `${race.id}-${name.replace(/\s+/g, '-').toLowerCase()}`,
+                  name: name,
+                  party: 'other', // Default since party info might not be available in HTML
+                  votes: parseInt(votes) || 0,
+                  percentage: parseFloat(percentage) || 0,
+                  incumbent: name.includes('(I)'),
+                });
+              }
+            });
+
+            if (race.candidates.length > 0) {
+              htmlRaces.push(race);
+            }
+          }
+        } catch (error) {
+          console.error(`Error parsing HTML race data:`, error);
+        }
+      });
+      
+      races = htmlRaces;
+      console.log(`Parsed ${races.length} races from HTML`);
+    }
 
     // Save raw data for debugging
-    const rawDataPath = path.join(DATA_PATH, `${source.id}_raw_${Date.now()}.html`);
-    fs.writeFileSync(rawDataPath, response.data);
-
+    const timestamp = Date.now();
+    const rawDataPath = path.join(DATA_PATH, `${source.id}_raw_${timestamp}.json`);
+    
     // Save processed data
-    const processedDataPath = path.join(DATA_PATH, `${source.id}_${Date.now()}.json`);
+    const processedDataPath = path.join(DATA_PATH, `${source.id}_${timestamp}.json`);
     fs.writeFileSync(processedDataPath, JSON.stringify(races, null, 2));
-
+    
+    console.log(`Successfully scraped ${races.length} races from ${source.name}`);
     return races;
+
   } catch (error) {
-    console.error(`Error scraping ${source.name}:`, error);
+    console.error(`Error scraping ${source.name}:`, error.message);
+    
     // Log detailed error information
-    fs.appendFileSync(
-      path.join(DATA_PATH, 'scraper_errors.log'),
-      `${new Date().toISOString()} - ${source.name}: ${error.message}\n${error.stack}\n\n`
-    );
-    return null;
+    const errorLog = `${new Date().toISOString()} - ${source.name}: ${error.message}\n${error.stack}\n\n`;
+    fs.appendFileSync(path.join(DATA_PATH, 'scraper_errors.log'), errorLog);
+    
+    return [];
   }
 }
 
 // Data normalization function
 function normalizeData(races) {
   return races.map(race => ({
-    id: `${race.state}-${race.title}`.toLowerCase().replace(/\s+/g, '-'),
-    title: race.title,
-    state: race.state,
-    type: determineRaceType(race.title),
+    ...race,
+    id: race.id || `${race.state}-${race.title}`.toLowerCase().replace(/\s+/g, '-'),
     candidates: race.candidates.map(candidate => ({
-      id: `${candidate.name}-${candidate.party}`.toLowerCase().replace(/\s+/g, '-'),
-      name: candidate.name,
+      ...candidate,
       party: normalizeParty(candidate.party),
-      votes: candidate.votes,
-      percentage: candidate.percentage,
-      incumbent: determineIncumbency(candidate),
     })),
-    precincts: race.precincts,
     lastUpdated: new Date().toISOString(),
-    called: determineIfCalled(race),
-    isLive: true,
   }));
 }
 
 // Helper functions
 function determineRaceType(title) {
-  if (title.includes('President')) return 'presidential';
-  if (title.includes('Senate')) return 'senate';
-  if (title.includes('House')) return 'house';
-  if (title.includes('Governor')) return 'governor';
+  const titleLower = title.toLowerCase();
+  if (titleLower.includes('president')) return 'presidential';
+  if (titleLower.includes('senate')) return 'senate';
+  if (titleLower.includes('house') || titleLower.includes('congress')) return 'house';
+  if (titleLower.includes('governor')) return 'governor';
+  if (titleLower.includes('mayor')) return 'mayor';
+  if (titleLower.includes('judge')) return 'judicial';
+  if (titleLower.includes('sheriff')) return 'sheriff';
+  if (titleLower.includes('district attorney') || titleLower.includes('da ')) return 'district-attorney';
   return 'other';
 }
 
 function normalizeParty(party) {
-  party = party.toLowerCase();
-  if (party.includes('dem')) return 'democrat';
-  if (party.includes('rep')) return 'republican';
+  if (!party) return 'other';
+  const partyLower = party.toLowerCase();
+  if (partyLower.includes('dem') || partyLower.includes('democratic')) return 'democrat';
+  if (partyLower.includes('rep') || partyLower.includes('republican')) return 'republican';
+  if (partyLower.includes('lib') || partyLower.includes('libertarian')) return 'libertarian';
+  if (partyLower.includes('green')) return 'green';
   return 'other';
 }
 
-function determineIncumbency(candidate) {
-  return candidate.name.includes('(I)') || candidate.name.includes('Incumbent');
-}
-
 function determineIfCalled(race) {
+  if (!race.candidates || race.candidates.length < 2) return false;
+  
   const topCandidates = [...race.candidates]
     .sort((a, b) => b.votes - a.votes)
     .slice(0, 2);
@@ -225,12 +286,12 @@ function determineIfCalled(race) {
   const margin = leader.percentage - runner.percentage;
   const precinctReporting = race.precincts.percentage;
   
-  return precinctReporting > 98 || (precinctReporting > 80 && margin > 15);
+  return precinctReporting > 95 || (precinctReporting > 75 && margin > 10);
 }
 
 // Main execution function
 async function main() {
-  console.log('Starting election data scraper...');
+  console.log('Starting Dallas County election data scraper...');
   const rateLimiter = new RateLimiter(RATE_LIMIT.requestsPerMinute);
   
   try {
@@ -240,18 +301,36 @@ async function main() {
     );
 
     // Process and combine results
-    const validResults = results.filter(Boolean);
+    const validResults = results.filter(result => result && result.length > 0);
+    
     if (validResults.length > 0) {
-      const normalizedData = validResults.flatMap(normalizeData);
+      const allRaces = validResults.flat();
+      const normalizedData = normalizeData(allRaces);
       
       // Save combined data
       const combinedPath = path.join(DATA_PATH, `combined_${Date.now()}.json`);
       fs.writeFileSync(combinedPath, JSON.stringify(normalizedData, null, 2));
       
-      console.log(`Successfully scraped data from ${validResults.length} sources`);
+      console.log(`Successfully scraped data: ${normalizedData.length} races total`);
+      
+      // Display summary
+      console.log('\n=== SCRAPING SUMMARY ===');
+      console.log(`Total races found: ${normalizedData.length}`);
+      
+      const raceTypes = normalizedData.reduce((acc, race) => {
+        acc[race.type] = (acc[race.type] || 0) + 1;
+        return acc;
+      }, {});
+      
+      console.log('Race types:');
+      Object.entries(raceTypes).forEach(([type, count]) => {
+        console.log(`  ${type}: ${count}`);
+      });
+      
       return normalizedData;
     } else {
-      throw new Error('No valid data retrieved from any source');
+      console.log('No valid data retrieved from any source');
+      return [];
     }
   } catch (error) {
     console.error('Critical error in scraper:', error);
