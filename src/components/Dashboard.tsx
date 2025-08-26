@@ -20,22 +20,34 @@ const Dashboard: React.FC = () => {
 
   // Load mock data on first render
   useEffect(() => {
+    console.log('Dashboard useEffect triggered, races length:', electionData.races.length);
+    
     const loadInitialData = () => {
+      console.log('Loading initial mock data...');
       setIsLoading(true);
       
       // Simulate API call with timeout
       setTimeout(() => {
-        const mockRaces = generateMockElectionData();
-        updateElectionData({
-          races: mockRaces,
-          lastUpdated: new Date().toISOString(),
-        });
-        setIsLoading(false);
+        try {
+          const mockRaces = generateMockElectionData();
+          console.log('Generated mock races:', mockRaces.length);
+          updateElectionData({
+            races: mockRaces,
+            lastUpdated: new Date().toISOString(),
+          });
+          setIsLoading(false);
+        } catch (error) {
+          console.error('Error generating mock data:', error);
+          setIsLoading(false);
+        }
       }, 1500);
     };
     
     if (electionData.races.length === 0) {
+      console.log('No races found, loading initial data...');
       loadInitialData();
+    } else {
+      console.log('Races already loaded:', electionData.races.length);
     }
   }, [electionData.races.length, updateElectionData, setIsLoading]);
   
