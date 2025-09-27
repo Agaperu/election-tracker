@@ -1,8 +1,6 @@
-import { Candidate, Race } from '../types';
-
 // Helper function to generate random vote counts that sum to total
-const generateVoteCounts = (total: number, numCandidates: number): number[] => {
-  const votes: number[] = [];
+const generateVoteCounts = (total, numCandidates) => {
+  const votes = [];
   let remaining = total;
   
   for (let i = 0; i < numCandidates - 1; i++) {
@@ -20,11 +18,11 @@ const generateVoteCounts = (total: number, numCandidates: number): number[] => {
 };
 
 // Generate a mock race with random data
-export const generateMockRace = (id: string, state: string, type: Race['type']): Race => {
+export const generateMockRace = (id, state, type) => {
   const totalVotes = Math.floor(Math.random() * 1000000) + 100000;
   const voteCounts = generateVoteCounts(totalVotes, 2);
   
-  const candidates: Candidate[] = [
+  const candidates = [
     {
       id: `${id}-dem`,
       name: `John Smith`,
@@ -95,7 +93,7 @@ export const generateMockRace = (id: string, state: string, type: Race['type']):
 };
 
 // Generate mock data for multiple states
-export const generateMockElectionData = (): Race[] => {
+export const generateMockElectionData = () => {
   const states = [
     'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
     'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia',
@@ -109,7 +107,7 @@ export const generateMockElectionData = (): Race[] => {
     'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
   ];
   
-  const races: Race[] = [];
+  const races = [];
   
   // Generate presidential races for all states
   states.forEach((state, index) => {

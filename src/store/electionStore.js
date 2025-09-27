@@ -1,43 +1,7 @@
 import { create } from 'zustand';
-import { ElectionData, Race, ScrapeConfig, SettingsState } from '../types';
-
-interface ElectionStore {
-  // Election data
-  electionData: ElectionData;
-  updateElectionData: (data: ElectionData) => void;
-  updateRace: (race: Race) => void;
-
-  // Scraper config
-  scrapeConfig: ScrapeConfig;
-  updateScrapeConfig: (config: Partial<ScrapeConfig>) => void;
-  toggleSource: (sourceId: string) => void;
-  setRefreshInterval: (interval: number) => void;
-  toggleScraping: () => void;
-
-  // UI state
-  selectedRace: string | null;
-  setSelectedRace: (raceId: string | null) => void;
-  
-  // Settings
-  settings: SettingsState;
-  updateSettings: (settings: Partial<SettingsState>) => void;
-  toggleDarkMode: () => void;
-  
-  // Filters
-  filters: {
-    state: string | null;
-    raceType: string | null;
-    search: string;
-  };
-  updateFilters: (filters: Partial<ElectionStore['filters']>) => void;
-  
-  // Loading state
-  isLoading: boolean;
-  setIsLoading: (loading: boolean) => void;
-}
 
 // Initial scrape configuration - updated for Dallas County
-const initialScrapeConfig: ScrapeConfig = {
+const initialScrapeConfig = {
   sources: [
     {
       id: 'dallas-county',
@@ -73,7 +37,7 @@ const initialScrapeConfig: ScrapeConfig = {
 };
 
 // Initial settings
-const initialSettings: SettingsState = {
+const initialSettings = {
   darkMode: false,
   autoRefresh: true,
   refreshInterval: 30000, // 30 seconds
@@ -83,12 +47,12 @@ const initialSettings: SettingsState = {
 };
 
 // Initial mock election data
-const initialElectionData: ElectionData = {
+const initialElectionData = {
   races: [],
   lastUpdated: new Date().toISOString(),
 };
 
-export const useElectionStore = create<ElectionStore>((set) => ({
+export const useElectionStore = create((set) => ({
   // Election data
   electionData: initialElectionData,
   updateElectionData: (data) => set({ electionData: data }),

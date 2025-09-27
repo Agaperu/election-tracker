@@ -2,7 +2,7 @@ import React from 'react';
 import { BarChart3, PieChart, TrendingUp } from 'lucide-react';
 import useElectionStore from '../store/electionStore';
 
-const StatsOverview: React.FC = () => {
+const StatsOverview = () => {
   const { electionData } = useElectionStore();
   
   // Calculate statistics

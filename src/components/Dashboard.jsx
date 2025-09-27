@@ -6,9 +6,8 @@ import FiltersPanel from './FiltersPanel';
 import StatsOverview from './StatsOverview';
 import USAMap from './USAMap';
 import { generateMockElectionData } from '../utils/mockData';
-import { ElectionData } from '../types';
 
-const Dashboard: React.FC = () => {
+const Dashboard = () => {
   const { 
     electionData, 
     updateElectionData,

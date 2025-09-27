@@ -3,7 +3,7 @@ import { Database, RefreshCw } from 'lucide-react';
 import useElectionStore from '../store/electionStore';
 import { formatDistanceToNow } from 'date-fns';
 
-const SourcesPanel: React.FC = () => {
+const SourcesPanel = () => {
   const { scrapeConfig, toggleSource, setRefreshInterval } = useElectionStore();
 
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Filter, Search } from 'lucide-react';
 import useElectionStore from '../store/electionStore';
 
-const FiltersPanel: React.FC = () => {
+const FiltersPanel = () => {
   const { filters, updateFilters } = useElectionStore();
 
   // Get all US states plus focus on Texas

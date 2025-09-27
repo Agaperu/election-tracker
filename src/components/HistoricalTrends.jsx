@@ -13,22 +13,15 @@ const electionTypes = [
   { value: 'governor', label: 'Governor' },
 ];
 
-interface HistoricalData {
-  year: number;
-  state: string;
-  winner: 'democrat' | 'republican';
-  margin: number;
-}
-
-const HistoricalTrends: React.FC = () => {
+const HistoricalTrends = () => {
   const [isExpanded, setIsExpanded] = useState(true);
   const [selectedYear, setSelectedYear] = useState(2020);
   const [selectedType, setSelectedType] = useState('presidential');
-  const [selectedState, setSelectedState] = useState<string | null>(null);
-  const [tooltip, setTooltip] = useState<{ content: string; x: number; y: number } | null>(null);
+  const [selectedState, setSelectedState] = useState(null);
+  const [tooltip, setTooltip] = useState(null);
   
   // Mock historical data - in production, this would come from an API
-  const historicalData: HistoricalData[] = years.flatMap(year => 
+  const historicalData = years.flatMap(year => 
     ['Alabama', 'Alaska', /* ... other states ... */].map(state => ({
       year,
       state,
@@ -37,7 +30,7 @@ const HistoricalTrends: React.FC = () => {
     }))
   );
 
-  const getStateColor = (stateName: string) => {
+  const getStateColor = (stateName) => {
     const data = historicalData.find(d => d.year === selectedYear && d.state === stateName);
     if (!data) return "#e5e7eb";
     
@@ -47,13 +40,13 @@ const HistoricalTrends: React.FC = () => {
       : `rgba(220, 38, 38, ${intensity})`;
   };
 
-  const getStateHistory = (stateName: string) => {
+  const getStateHistory = (stateName) => {
     return historicalData
       .filter(d => d.state === stateName)
       .sort((a, b) => a.year - b.year);
   };
 
-  const handleMouseMove = (e: React.MouseEvent, stateName: string) => {
+  const handleMouseMove = (e, stateName) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;

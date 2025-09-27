@@ -10,11 +10,11 @@ import useElectionStore from '../store/electionStore';
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
-const USAMap: React.FC = () => {
+const USAMap = () => {
   const { electionData, filters, setSelectedRace } = useElectionStore();
   const [isExpanded, setIsExpanded] = useState(true);
-  const [tooltip, setTooltip] = useState<{ content: string; x: number; y: number } | null>(null);
-  const mapRef = useRef<HTMLDivElement>(null);
+  const [tooltip, setTooltip] = useState(null);
+  const mapRef = useRef(null);
 
   // Group races by state and calculate vote percentages
   const stateResults = electionData.races.reduce((acc, race) => {
@@ -24,7 +24,7 @@ const USAMap: React.FC = () => {
         republicanVotes: 0,
         totalVotes: 0,
         margin: 0,
-        leader: null as 'democrat' | 'republican' | null
+        leader: null
       };
     }
     
@@ -46,15 +46,9 @@ const USAMap: React.FC = () => {
     }
     
     return acc;
-  }, {} as Record<string, {
-    democratVotes: number;
-    republicanVotes: number;
-    totalVotes: number;
-    margin: number;
-    leader: 'democrat' | 'republican' | null;
-  }>);
+  }, {});
 
-  const getStateColor = (stateName: string) => {
+  const getStateColor = (stateName) => {
     const results = stateResults[stateName];
     if (!results || results.totalVotes === 0) return "#e5e7eb";
     
@@ -66,7 +60,7 @@ const USAMap: React.FC = () => {
       : `rgba(220, 38, 38, ${intensity})`;
   };
 
-  const getTooltipContent = (stateName: string) => {
+  const getTooltipContent = (stateName) => {
     const results = stateResults[stateName];
     if (!results || results.totalVotes === 0) return `${stateName}\nNo data available`;
     
@@ -80,7 +74,7 @@ const USAMap: React.FC = () => {
            `${leader === 'democrat' ? 'Democratic' : 'Republican'} lead: ${margin.toFixed(1)}%`;
   };
 
-  const handleMouseMove = (e: React.MouseEvent, stateName: string) => {
+  const handleMouseMove = (e, stateName) => {
     if (!mapRef.current) return;
     
     const rect = mapRef.current.getBoundingClientRect();

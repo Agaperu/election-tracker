@@ -1,14 +1,9 @@
 import React from 'react';
 import { formatDistance } from 'date-fns';
 import { AlertCircle, Check, ChevronRight, MapPin } from 'lucide-react';
-import { Race } from '../types';
 import useElectionStore from '../store/electionStore';
 
-interface RaceCardProps {
-  race: Race;
-}
-
-const RaceCard: React.FC<RaceCardProps> = ({ race }) => {
+const RaceCard = ({ race }) => {
   const { setSelectedRace, selectedRace } = useElectionStore();
   const isSelected = selectedRace === race.id;
   

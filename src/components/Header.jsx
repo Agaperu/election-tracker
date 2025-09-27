@@ -3,7 +3,7 @@ import { Activity, AlertCircle, Clock, Moon, Settings, Sun } from 'lucide-react'
 import useElectionStore from '../store/electionStore';
 import { formatDistanceToNow } from 'date-fns';
 
-const Header: React.FC = () => {
+const Header = () => {
   const { 
     electionData, 
     scrapeConfig, 
