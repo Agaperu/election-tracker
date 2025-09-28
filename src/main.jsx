@@ -5,7 +5,7 @@ import './index.css';
 
 // Chrome compatibility fixes
 if (typeof global === 'undefined') {
-  (window as any).global = window;
+  window.global = window;
 }
 
 console.log('Starting Election Tracker application...');
