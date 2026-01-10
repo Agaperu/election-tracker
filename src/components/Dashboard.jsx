@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import useElectionStore from '../store/electionStore';
 import RaceCard from './RaceCard';
 import SourcesPanel from './SourcesPanel';
 import FiltersPanel from './FiltersPanel';
 import StatsOverview from './StatsOverview';
 import USAMap from './USAMap';
-import { generateMockElectionData } from '../utils/mockData';
+import { fetchElectionResults, connectToResultsStream } from '../utils/api';
 
 const Dashboard = () => {
   const { 
@@ -15,56 +15,89 @@ const Dashboard = () => {
     scrapeConfig,
     setIsLoading,
     isLoading,
+    updateScrapeConfig,
+    error,
+    setError,
   } = useElectionStore();
 
-  // Load mock data on first render
+  // Load election data on first render
   useEffect(() => {
-    console.log('Dashboard useEffect triggered, races length:', electionData.races.length);
-    
-    const loadInitialData = () => {
-      console.log('Loading initial mock data...');
+    let isMounted = true;
+
+    const loadInitialData = async () => {
       setIsLoading(true);
-      
-      // Simulate API call with timeout
-      setTimeout(() => {
-        try {
-          const mockRaces = generateMockElectionData();
-          console.log('Generated mock races:', mockRaces.length);
-          updateElectionData({
-            races: mockRaces,
-            lastUpdated: new Date().toISOString(),
-          });
-          setIsLoading(false);
-        } catch (error) {
-          console.error('Error generating mock data:', error);
+      try {
+        const data = await fetchElectionResults();
+        if (isMounted && data) {
+          updateElectionData(data);
+          setError(null);
+        }
+      } catch (fetchError) {
+        console.error('Failed to fetch election results:', fetchError);
+        if (isMounted) {
+          setError('Unable to load election results. Ensure the backend scraper server is running.');
+        }
+      } finally {
+        if (isMounted) {
           setIsLoading(false);
         }
-      }, 1500);
+      }
     };
-    
+
     if (electionData.races.length === 0) {
-      console.log('No races found, loading initial data...');
       loadInitialData();
-    } else {
-      console.log('Races already loaded:', electionData.races.length);
     }
-  }, [electionData.races.length, updateElectionData, setIsLoading]);
+
+    return () => {
+      isMounted = false;
+    };
+  }, [electionData.races.length, setError, setIsLoading, updateElectionData]);
   
-  // Set up polling if auto-refresh is enabled
+  // Subscribe to live updates using SSE with polling fallback
   useEffect(() => {
-    if (!scrapeConfig.isRunning) return;
-    
-    const interval = setInterval(() => {
-      // Update with new mock data to simulate live updates
-      const mockRaces = generateMockElectionData();
-      updateElectionData({
-        races: mockRaces,
-        lastUpdated: new Date().toISOString(),
+    if (!scrapeConfig.isRunning) return undefined;
+
+    let cleanupStream;
+    let fallbackTimer;
+    let fallbackActive = false;
+
+    const fetchLatest = async () => {
+      try {
+        const data = await fetchElectionResults();
+        updateElectionData(data);
+      } catch (fetchError) {
+        console.error('Polling fallback failed:', fetchError);
+        setError('Unable to refresh election results. Check the scraper server.');
+      }
+    };
+
+    if (typeof window !== 'undefined' && window.EventSource) {
+      cleanupStream = connectToResultsStream({
+        onResults: (data) => {
+          updateElectionData(data);
+          setError(null);
+        },
+        onConfig: (config) => updateScrapeConfig(config),
+        onError: () => {
+          if (!fallbackActive) {
+            fallbackActive = true;
+            if (cleanupStream) {
+              cleanupStream();
+              cleanupStream = undefined;
+            }
+            fallbackTimer = setInterval(fetchLatest, scrapeConfig.refreshInterval);
+          }
+        },
       });
-    }, scrapeConfig.refreshInterval);
-    
-    return () => clearInterval(interval);
-  }, [scrapeConfig.isRunning, scrapeConfig.refreshInterval, updateElectionData]);
+    } else {
+      fallbackTimer = setInterval(fetchLatest, scrapeConfig.refreshInterval);
+    }
+
+    return () => {
+      if (cleanupStream) cleanupStream();
+      if (fallbackTimer) clearInterval(fallbackTimer);
+    };
+  }, [scrapeConfig.isRunning, scrapeConfig.refreshInterval, setError, updateElectionData, updateScrapeConfig]);
   
   // Filter races based on current filters
   const filteredRaces = electionData.races.filter(race => {
@@ -91,6 +124,11 @@ const Dashboard = () => {
 
   return (
     <div className="container mx-auto px-4 py-6">
+      {error && (
+        <div className="mb-4 border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-200 rounded-md p-3 text-sm">
+          {error}
+        </div>
+      )}
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Sidebar with sources and filters */}
         <div className="lg:col-span-1 space-y-6">

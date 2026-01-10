@@ -1,0 +1,7950 @@
+[
+  {
+    "id": 179,
+    "title": "Florida 1st Congressional District - Special Election",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "179-0",
+        "name": "Jimmy Patronis",
+        "party": "republican",
+        "votes": 96433,
+        "percentage": 57,
+        "incumbent": false
+      },
+      {
+        "id": "179-1",
+        "name": "Gay Valimont",
+        "party": "democrat",
+        "votes": 71488,
+        "percentage": 42.3,
+        "incumbent": false
+      },
+      {
+        "id": "179-2",
+        "name": "Stephen Broden",
+        "party": "other",
+        "votes": 1182,
+        "percentage": 0.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": null
+    }
+  },
+  {
+    "id": 180,
+    "title": "Florida 6th Congressional District - Special Election",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "180-0",
+        "name": "Randy Fine",
+        "party": "republican",
+        "votes": 110764,
+        "percentage": 56.8,
+        "incumbent": false
+      },
+      {
+        "id": "180-1",
+        "name": "Josh Weil",
+        "party": "democrat",
+        "votes": 83485,
+        "percentage": 42.8,
+        "incumbent": false
+      },
+      {
+        "id": "180-2",
+        "name": "Andrew Parrott",
+        "party": "libertarian",
+        "votes": 701,
+        "percentage": 0.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": null
+    }
+  },
+  {
+    "id": 1,
+    "title": "2025 Wisconsin Spring Election Early Vote",
+    "state": "WI",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "1-0",
+        "name": "Ballots Requested",
+        "party": "other",
+        "votes": 747494,
+        "percentage": 41.9,
+        "incumbent": false
+      },
+      {
+        "id": "1-1",
+        "name": "Ballots Returned",
+        "party": "other",
+        "votes": 674730,
+        "percentage": 37.8,
+        "incumbent": false
+      },
+      {
+        "id": "1-2",
+        "name": "Early In-Person Votes",
+        "party": "other",
+        "votes": 363345,
+        "percentage": 20.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "WI",
+      "district": null
+    }
+  },
+  {
+    "id": 18,
+    "title": "Wisconsin State Superintendent of Public Instruction General Election",
+    "state": "WI",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "18-0",
+        "name": "Jill Underly",
+        "party": "other",
+        "votes": 1148451,
+        "percentage": 52.9,
+        "incumbent": false
+      },
+      {
+        "id": "18-1",
+        "name": "Brittany Kinser",
+        "party": "other",
+        "votes": 1022360,
+        "percentage": 47.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 99,
+      "percentage": 99
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "WI",
+      "district": null
+    }
+  },
+  {
+    "id": 19,
+    "title": "Wisconsin Supreme Court General Election",
+    "state": "WI",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "19-0",
+        "name": "Susan Crawford",
+        "party": "other",
+        "votes": 1301128,
+        "percentage": 55,
+        "incumbent": false
+      },
+      {
+        "id": "19-1",
+        "name": "Brad Schimel",
+        "party": "other",
+        "votes": 1063244,
+        "percentage": 45,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 99,
+      "percentage": 99
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "WI",
+      "district": null
+    }
+  },
+  {
+    "id": 20,
+    "title": "Wisconsin Question 1 (Require Voter Photo ID Amendment)",
+    "state": "WI",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "20-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1435938,
+        "percentage": 62.8,
+        "incumbent": false
+      },
+      {
+        "id": "20-1",
+        "name": "No",
+        "party": "other",
+        "votes": 852286,
+        "percentage": 37.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 99,
+      "percentage": 99
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "WI",
+      "district": null
+    }
+  },
+  {
+    "id": 48,
+    "title": "Amendment 1 -- To provide for disciplinary proceedings over attorneys and to create courts of limited jurisdiction",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "48-0",
+        "name": "No",
+        "party": "other",
+        "votes": 412082,
+        "percentage": 65.1,
+        "incumbent": false
+      },
+      {
+        "id": "48-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 221334,
+        "percentage": 34.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": null
+    }
+  },
+  {
+    "id": 49,
+    "title": "Amendment 2 -- To provide with respect to the power of taxation including limitations thereon",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "49-0",
+        "name": "No",
+        "party": "other",
+        "votes": 410083,
+        "percentage": 64.7,
+        "incumbent": false
+      },
+      {
+        "id": "49-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 224085,
+        "percentage": 35.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": null
+    }
+  },
+  {
+    "id": 50,
+    "title": "Amendment 3 -- To provide relative to crimes committed by juveniles and to special juvenile proceedings",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "50-0",
+        "name": "No",
+        "party": "other",
+        "votes": 419366,
+        "percentage": 66.4,
+        "incumbent": false
+      },
+      {
+        "id": "50-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 212324,
+        "percentage": 33.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": null
+    }
+  },
+  {
+    "id": 51,
+    "title": "Amendment 4 -- To provide for election dates for newly-created judgeships or vacancies in office of judge",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "51-0",
+        "name": "No",
+        "party": "other",
+        "votes": 401499,
+        "percentage": 63.6,
+        "incumbent": false
+      },
+      {
+        "id": "51-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 229597,
+        "percentage": 36.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": null
+    }
+  },
+  {
+    "id": 2,
+    "title": "Wisconsin Superintendent of Public Instruction Primary",
+    "state": "WI",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "2-0",
+        "name": "Jill Underly",
+        "party": "other",
+        "votes": 177097,
+        "percentage": 37.9,
+        "incumbent": false
+      },
+      {
+        "id": "2-1",
+        "name": "Brittany Kinser",
+        "party": "other",
+        "votes": 161585,
+        "percentage": 34.6,
+        "incumbent": false
+      },
+      {
+        "id": "2-2",
+        "name": "Jeff Wright",
+        "party": "other",
+        "votes": 128253,
+        "percentage": 27.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "2-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "WI",
+      "district": null
+    }
+  },
+  {
+    "id": 131,
+    "title": "Anchorage: Anchorage Assembly District 1 Seat L",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "131-0",
+        "name": "Daniel Volland",
+        "party": "other",
+        "votes": 2179,
+        "percentage": 59.8,
+        "incumbent": false
+      },
+      {
+        "id": "131-1",
+        "name": "Daniel George",
+        "party": "other",
+        "votes": 1137,
+        "percentage": 31.2,
+        "incumbent": false
+      },
+      {
+        "id": "131-2",
+        "name": "Nick Danger",
+        "party": "other",
+        "votes": 328,
+        "percentage": 9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 132,
+    "title": "Anchorage: Anchorage Assembly District 2 Seat A",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "132-0",
+        "name": "Jared Goecker",
+        "party": "other",
+        "votes": 2954,
+        "percentage": 53.4,
+        "incumbent": false
+      },
+      {
+        "id": "132-1",
+        "name": "Kyle Walker",
+        "party": "other",
+        "votes": 2188,
+        "percentage": 39.6,
+        "incumbent": false
+      },
+      {
+        "id": "132-2",
+        "name": "David Littleton",
+        "party": "other",
+        "votes": 385,
+        "percentage": 7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 133,
+    "title": "Anchorage: Anchorage Assembly District 3 Seat D",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "133-0",
+        "name": "Kameron Perez-Verdia",
+        "party": "other",
+        "votes": 4526,
+        "percentage": 65.6,
+        "incumbent": false
+      },
+      {
+        "id": "133-1",
+        "name": "Amie Steen",
+        "party": "other",
+        "votes": 1516,
+        "percentage": 22,
+        "incumbent": false
+      },
+      {
+        "id": "133-2",
+        "name": "Jonathan Duckworth",
+        "party": "other",
+        "votes": 854,
+        "percentage": 12.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 134,
+    "title": "Anchorage: Anchorage Assembly District 4 Seat F",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "134-0",
+        "name": "Erin Baldwin Day",
+        "party": "other",
+        "votes": 3832,
+        "percentage": 63.8,
+        "incumbent": false
+      },
+      {
+        "id": "134-1",
+        "name": "Don Smith",
+        "party": "other",
+        "votes": 2173,
+        "percentage": 36.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 135,
+    "title": "Anchorage: Anchorage Assembly District 5 Seat H",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "135-0",
+        "name": "Yarrow Silvers",
+        "party": "other",
+        "votes": 2622,
+        "percentage": 53.2,
+        "incumbent": false
+      },
+      {
+        "id": "135-1",
+        "name": "Angela Frank",
+        "party": "other",
+        "votes": 1168,
+        "percentage": 23.7,
+        "incumbent": false
+      },
+      {
+        "id": "135-2",
+        "name": "John Stiegele",
+        "party": "other",
+        "votes": 1143,
+        "percentage": 23.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 136,
+    "title": "Anchorage: Anchorage Assembly District 6 Seat J",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "136-0",
+        "name": "Keith McCormick",
+        "party": "other",
+        "votes": 8246,
+        "percentage": 91.6,
+        "incumbent": false
+      },
+      {
+        "id": "136-1",
+        "name": "Darin Colbry",
+        "party": "other",
+        "votes": 759,
+        "percentage": 8.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 137,
+    "title": "Anchorage: Anchorage School District Board of Education Seat A",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "137-0",
+        "name": "Margo Bellamy",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "137-1",
+        "name": "Alexander Rosales",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 138,
+    "title": "Anchorage: Anchorage School District Board of Education Seat B",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "138-0",
+        "name": "Kelly Lessens",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "138-1",
+        "name": "Mark Anthony Cox",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 139,
+    "title": "Anchorage: Birchtree-Elmore LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "139-0",
+        "name": "Scott Sell",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 140,
+    "title": "Anchorage: Chugiak Fire Service Area Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "140-0",
+        "name": "Bill Stoltze",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 141,
+    "title": "Anchorage: Girdwood Valley Service Area Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "141-0",
+        "name": "Kellie Okonek",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "141-1",
+        "name": "Brett Wilbanks",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 142,
+    "title": "Anchorage: Glen Alps Service Area Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "142-0",
+        "name": "Mason Ryder Spadafore",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 143,
+    "title": "Anchorage: Glen Alps Service Area Seat D",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "143-0",
+        "name": "Roger Marks",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 144,
+    "title": "Anchorage: Homestead Service Area Seat A",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "144-0",
+        "name": "David Parret",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 145,
+    "title": "Anchorage: Mt. Park Estates LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "145-0",
+        "name": "Robert Redlinger",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 146,
+    "title": "Anchorage: Mt. Park/Robin Hill RRSA Seat E",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "146-0",
+        "name": "Collin Leary",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 147,
+    "title": "Anchorage: Rabbit Creek View/Heights LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "147-0",
+        "name": "Claire Steffens",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 148,
+    "title": "Anchorage: Raven Woods/Bubbling Brook LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "148-0",
+        "name": "John Binder",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 149,
+    "title": "Anchorage: Section 6/Campbell Airstrip Road LRSA Seat D",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "149-0",
+        "name": "Lonnie Brown",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 150,
+    "title": "Anchorage: Section 6/Campbell Airstrip Road LRSA Seat E",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "150-0",
+        "name": "Ted Trueblood",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 151,
+    "title": "Anchorage: Sequoia Estates LRSA Seat D",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "151-0",
+        "name": "Dagmar Mikko",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 152,
+    "title": "Anchorage: Skyranch Estates LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "152-0",
+        "name": "Ron Rickman",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 153,
+    "title": "Anchorage: South Goldenview RRSA Seat D",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "153-0",
+        "name": "Chris Hughes",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 154,
+    "title": "Anchorage: South Goldenview RRSA Seat E",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "154-0",
+        "name": "Chris Reynolds",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 155,
+    "title": "Anchorage: Talus West LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "155-0",
+        "name": "Lawrence Jorgensen",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 156,
+    "title": "Anchorage: Totem LRSA Seat A",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "156-0",
+        "name": "David Jensen",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 157,
+    "title": "Anchorage: Upper Grover LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "157-0",
+        "name": "Leon Dwiggins",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 158,
+    "title": "Anchorage: Upper O'Malley LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "158-0",
+        "name": "David Pease",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 159,
+    "title": "Anchorage: Valli Vue LRSA Seat C",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "159-0",
+        "name": "Allen Hippler",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 160,
+    "title": "Anchorage: Villages Scenic Parkway LRSA Seat B",
+    "state": "AK",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "160-0",
+        "name": "Greg Shearer",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "AK",
+      "district": "Anchorage"
+    }
+  },
+  {
+    "id": 161,
+    "title": "Colorado Springs City Council District 1",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "161-0",
+        "name": "Dave Donelson",
+        "party": "other",
+        "votes": 11802,
+        "percentage": 58,
+        "incumbent": false
+      },
+      {
+        "id": "161-1",
+        "name": "Lee Lehmkuhl",
+        "party": "other",
+        "votes": 8542,
+        "percentage": 42,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "161-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "El Paso"
+    }
+  },
+  {
+    "id": 162,
+    "title": "Colorado Springs City Council District 2",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "162-0",
+        "name": "Tom Bailey",
+        "party": "other",
+        "votes": 7048,
+        "percentage": 100,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "162-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "El Paso"
+    }
+  },
+  {
+    "id": 163,
+    "title": "Colorado Springs City Council District 3",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "163-0",
+        "name": "Brandy Williams",
+        "party": "other",
+        "votes": 6503,
+        "percentage": 43.2,
+        "incumbent": false
+      },
+      {
+        "id": "163-1",
+        "name": "Maryah Lauer",
+        "party": "other",
+        "votes": 5985,
+        "percentage": 39.8,
+        "incumbent": false
+      },
+      {
+        "id": "163-2",
+        "name": "Greg Thornton",
+        "party": "other",
+        "votes": 2566,
+        "percentage": 17,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "163-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "El Paso"
+    }
+  },
+  {
+    "id": 164,
+    "title": "Colorado Springs City Council District 4",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "164-0",
+        "name": "Kimberly Gold",
+        "party": "other",
+        "votes": 2253,
+        "percentage": 40.9,
+        "incumbent": false
+      },
+      {
+        "id": "164-1",
+        "name": "Sherrea Elliott-Sterling",
+        "party": "other",
+        "votes": 1737,
+        "percentage": 31.5,
+        "incumbent": false
+      },
+      {
+        "id": "164-2",
+        "name": "Chauncy Johnson",
+        "party": "other",
+        "votes": 1517,
+        "percentage": 27.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "164-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "El Paso"
+    }
+  },
+  {
+    "id": 165,
+    "title": "Colorado Springs City Council District 5",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "165-0",
+        "name": "Nancy Henjum",
+        "party": "other",
+        "votes": 7455,
+        "percentage": 51.8,
+        "incumbent": false
+      },
+      {
+        "id": "165-1",
+        "name": "Christopher Burns",
+        "party": "other",
+        "votes": 4322,
+        "percentage": 30,
+        "incumbent": false
+      },
+      {
+        "id": "165-2",
+        "name": "Jim Miller",
+        "party": "other",
+        "votes": 2612,
+        "percentage": 18.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "165-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "El Paso"
+    }
+  },
+  {
+    "id": 166,
+    "title": "Colorado Springs City Council District 6",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "166-0",
+        "name": "Roland Rainey, Jr.",
+        "party": "other",
+        "votes": 4784,
+        "percentage": 42.5,
+        "incumbent": false
+      },
+      {
+        "id": "166-1",
+        "name": "Parth Melpakam",
+        "party": "other",
+        "votes": 4151,
+        "percentage": 36.9,
+        "incumbent": false
+      },
+      {
+        "id": "166-2",
+        "name": "Aaron Schick",
+        "party": "other",
+        "votes": 2313,
+        "percentage": 20.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "166-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "El Paso"
+    }
+  },
+  {
+    "id": 167,
+    "title": "Bronson Town Council Seat 1",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "167-0",
+        "name": "Rachel Weeks",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "167-1",
+        "name": "Robert Partin",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 168,
+    "title": "Bronson Town Council Seat 3",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "168-0",
+        "name": "Bruce Greenlee",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "168-1",
+        "name": "Sherrie Schuler",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 169,
+    "title": "Bronson Town Council Seat 5",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "169-0",
+        "name": "Reggie Stacy",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "169-1",
+        "name": "Tyler Voorhees",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 170,
+    "title": "Cedar Key City Commissioner Board Seat 1",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "170-0",
+        "name": "Jolie Davis",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "170-1",
+        "name": "Susan Rosenthal",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 171,
+    "title": "Cedar Key City Commissioner Board Seat 3",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "171-0",
+        "name": "Dell Weible",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "171-1",
+        "name": "James Wortham",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 172,
+    "title": "Cedar Key City Commissioner Board Seat 5",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "172-0",
+        "name": "Andrea Dennison",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "172-1",
+        "name": "Mel Beckham",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 173,
+    "title": "Surfside Max Floor Area Ratio New Homes",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "173-0",
+        "name": "No",
+        "party": "other",
+        "votes": 557,
+        "percentage": 55.5,
+        "incumbent": false
+      },
+      {
+        "id": "173-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 447,
+        "percentage": 44.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Miami-Dade"
+    }
+  },
+  {
+    "id": 174,
+    "title": "Bay Harbor Islands Council Member",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "174-0",
+        "name": "Stephanie Bruder",
+        "party": "other",
+        "votes": 442,
+        "percentage": 44.6,
+        "incumbent": false
+      },
+      {
+        "id": "174-1",
+        "name": "Molly Diallo",
+        "party": "other",
+        "votes": 398,
+        "percentage": 40.2,
+        "incumbent": false
+      },
+      {
+        "id": "174-2",
+        "name": "Dave Sanchez",
+        "party": "other",
+        "votes": 151,
+        "percentage": 15.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Miami-Dade"
+    }
+  },
+  {
+    "id": 175,
+    "title": "Miami Springs City Council - Group II",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "175-0",
+        "name": "Joseph Dion",
+        "party": "other",
+        "votes": 1065,
+        "percentage": 50.6,
+        "incumbent": false
+      },
+      {
+        "id": "175-1",
+        "name": "MaryJo Mejia Ramos",
+        "party": "other",
+        "votes": 799,
+        "percentage": 37.9,
+        "incumbent": false
+      },
+      {
+        "id": "175-2",
+        "name": "Irma Matos",
+        "party": "other",
+        "votes": 242,
+        "percentage": 11.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Miami-Dade"
+    }
+  },
+  {
+    "id": 176,
+    "title": "Miami Springs City Council - Group III",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "176-0",
+        "name": "Orlando Lamas",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Miami-Dade"
+    }
+  },
+  {
+    "id": 177,
+    "title": "Miami Springs City Council - Group IV",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "177-0",
+        "name": "Fabian Perez-Crespo",
+        "party": "other",
+        "votes": 1369,
+        "percentage": 64.5,
+        "incumbent": false
+      },
+      {
+        "id": "177-1",
+        "name": "Tom Hutchings",
+        "party": "other",
+        "votes": 752,
+        "percentage": 35.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Miami-Dade"
+    }
+  },
+  {
+    "id": 178,
+    "title": "Miami Springs Mayor",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "178-0",
+        "name": "Walter Fajet",
+        "party": "other",
+        "votes": 1409,
+        "percentage": 65.6,
+        "incumbent": false
+      },
+      {
+        "id": "178-1",
+        "name": "Bob Best",
+        "party": "other",
+        "votes": 738,
+        "percentage": 34.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Miami-Dade"
+    }
+  },
+  {
+    "id": 181,
+    "title": "Frostproof City Council Seat 1",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "181-0",
+        "name": "Michael Hutto",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 182,
+    "title": "Frostproof City Council Seat 3",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "182-0",
+        "name": "Adam Greenway",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "182-1",
+        "name": "Jamie Smith",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 183,
+    "title": "Inglis Mayor",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "183-0",
+        "name": "Isaac Young",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "183-1",
+        "name": "Michael White",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 184,
+    "title": "Inglis Town Commissioner Board At-large",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "184-0",
+        "name": "Cory Ayers",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "184-1",
+        "name": "Daryl Lynaugh",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "184-2",
+        "name": "Mike Ahern",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 185,
+    "title": "Otter Creek City Council At-large Term Ends 2026",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "185-0",
+        "name": "Carl Hughes",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "185-1",
+        "name": "Stuart Stewart",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 186,
+    "title": "Otter Creek City Council At-large Term Ends 2027",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "186-0",
+        "name": "Don Severino",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "186-1",
+        "name": "Jeffrey Berry",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "186-2",
+        "name": "Lynette Preston",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Levy"
+    }
+  },
+  {
+    "id": 187,
+    "title": "Davenport Commissioner - Seat 3",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "187-0",
+        "name": "Tom Fellows",
+        "party": "other",
+        "votes": 225,
+        "percentage": 55.8,
+        "incumbent": false
+      },
+      {
+        "id": "187-1",
+        "name": "Timothy \"Scott\" Woodlee",
+        "party": "other",
+        "votes": 178,
+        "percentage": 44.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 188,
+    "title": "Dundee Town Commission Seat 2",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "188-0",
+        "name": "Annette Wilson",
+        "party": "other",
+        "votes": 221,
+        "percentage": 59.9,
+        "incumbent": false
+      },
+      {
+        "id": "188-1",
+        "name": "Alethea Pugh",
+        "party": "other",
+        "votes": 148,
+        "percentage": 40.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 189,
+    "title": "Dundee Town Commission Seat 4",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "189-0",
+        "name": "Mary Richardson",
+        "party": "other",
+        "votes": 209,
+        "percentage": 55.6,
+        "incumbent": false
+      },
+      {
+        "id": "189-1",
+        "name": "Julia Hunt",
+        "party": "other",
+        "votes": 167,
+        "percentage": 44.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 190,
+    "title": "Haines City - City Commission Seat 5",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "190-0",
+        "name": "Horace L. West",
+        "party": "other",
+        "votes": 417,
+        "percentage": 46.9,
+        "incumbent": false
+      },
+      {
+        "id": "190-1",
+        "name": "Anne Huffman",
+        "party": "other",
+        "votes": 366,
+        "percentage": 41.2,
+        "incumbent": false
+      },
+      {
+        "id": "190-2",
+        "name": "Edwin Perez",
+        "party": "other",
+        "votes": 106,
+        "percentage": 11.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 191,
+    "title": "Lake Alfred City Commission - At Large",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "191-0",
+        "name": "Nancy Z. Daley",
+        "party": "other",
+        "votes": 228,
+        "percentage": 36.6,
+        "incumbent": false
+      },
+      {
+        "id": "191-1",
+        "name": "Mac Fuller",
+        "party": "other",
+        "votes": 216,
+        "percentage": 34.7,
+        "incumbent": false
+      },
+      {
+        "id": "191-2",
+        "name": "Ronnie Robinson Jr",
+        "party": "other",
+        "votes": 179,
+        "percentage": 28.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 192,
+    "title": "Lake Hamilton Town Council Seat 2",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "192-0",
+        "name": "Robert Mathis",
+        "party": "other",
+        "votes": 75,
+        "percentage": 51.7,
+        "incumbent": false
+      },
+      {
+        "id": "192-1",
+        "name": "Larry Dale Tomlinson",
+        "party": "other",
+        "votes": 70,
+        "percentage": 48.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 193,
+    "title": "Lake Hamilton Town Mayor",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "193-0",
+        "name": "Phyllis Hall",
+        "party": "other",
+        "votes": 89,
+        "percentage": 62.7,
+        "incumbent": false
+      },
+      {
+        "id": "193-1",
+        "name": "Marlene M. Wagner",
+        "party": "other",
+        "votes": 53,
+        "percentage": 37.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 194,
+    "title": "Lake Wales Charter Amendment",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "194-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 307,
+        "percentage": 67.3,
+        "incumbent": false
+      },
+      {
+        "id": "194-1",
+        "name": "No",
+        "party": "other",
+        "votes": 149,
+        "percentage": 32.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 195,
+    "title": "Lake Wales Mayor Seat 1, At Large",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "195-0",
+        "name": "Jack Hilligoss",
+        "party": "other",
+        "votes": 378,
+        "percentage": 78.3,
+        "incumbent": false
+      },
+      {
+        "id": "195-1",
+        "name": "Curtis Gibson",
+        "party": "other",
+        "votes": 105,
+        "percentage": 21.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 196,
+    "title": "Mulberry City Commission Seat 2",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "196-0",
+        "name": "Robert Knight",
+        "party": "other",
+        "votes": 74,
+        "percentage": 52.9,
+        "incumbent": false
+      },
+      {
+        "id": "196-1",
+        "name": "Kathryn Smith Barsotti",
+        "party": "other",
+        "votes": 66,
+        "percentage": 47.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 197,
+    "title": "No. 1 Charter Amendment, Mayor and Commission Terms Davenport",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "197-0",
+        "name": "No",
+        "party": "other",
+        "votes": 294,
+        "percentage": 72.4,
+        "incumbent": false
+      },
+      {
+        "id": "197-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 112,
+        "percentage": 27.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 198,
+    "title": "No. 2 Charter Amendment, Super Majority Removal Vote Davenport",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "198-0",
+        "name": "No",
+        "party": "other",
+        "votes": 218,
+        "percentage": 54.5,
+        "incumbent": false
+      },
+      {
+        "id": "198-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 182,
+        "percentage": 45.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 199,
+    "title": "No. 3 Charter Amendment, Petitioner's Committee Change",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "199-0",
+        "name": "No",
+        "party": "other",
+        "votes": 206,
+        "percentage": 50.9,
+        "incumbent": false
+      },
+      {
+        "id": "199-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 199,
+        "percentage": 49.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 200,
+    "title": "No. 4 Charter Amendment, Repeal Sewer Limitation Davenport",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "200-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 249,
+        "percentage": 61.6,
+        "incumbent": false
+      },
+      {
+        "id": "200-1",
+        "name": "No",
+        "party": "other",
+        "votes": 155,
+        "percentage": 38.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Polk"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Acadia: Sales Tax District No. 2 -- 1% S&U Tax Renewal - PJ - 15 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "21-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1369,
+        "percentage": 62.7,
+        "incumbent": false
+      },
+      {
+        "id": "21-1",
+        "name": "No",
+        "party": "other",
+        "votes": 814,
+        "percentage": 37.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Acadia"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Allen: Elizabeth Recreation District No. 3 -- 11.28 Mills Renewal - BOC -10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "22-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 66,
+        "percentage": 72.5,
+        "incumbent": false
+      },
+      {
+        "id": "22-1",
+        "name": "No",
+        "party": "other",
+        "votes": 25,
+        "percentage": 27.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Allen"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Ascension: Council Member(s) -- Town of Sorrento",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "23-0",
+        "name": "Randy Anny",
+        "party": "democrat",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "23-1",
+        "name": "Harrison \"Jake\" Benson",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "23-2",
+        "name": "Wanda LeBlanc Bourgeois",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Ascension"
+    }
+  },
+  {
+    "id": 24,
+    "title": "Ascension: Parishwide Home Rule Charter Amendment -- Amends Article IV, Section 4-04(A) - PC",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "24-0",
+        "name": "No",
+        "party": "other",
+        "votes": 7835,
+        "percentage": 74.7,
+        "incumbent": false
+      },
+      {
+        "id": "24-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 2658,
+        "percentage": 25.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Ascension"
+    }
+  },
+  {
+    "id": 25,
+    "title": "Assumption: Bayou Pierre Part N. Gravity Drainage Dist. -- $50 Parcel Fee Cont. - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "25-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "25-1",
+        "name": "No",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Assumption"
+    }
+  },
+  {
+    "id": 26,
+    "title": "Avoyelles: Police Juror -- District  4",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "26-0",
+        "name": "Rashad Qaasim",
+        "party": "other",
+        "votes": 160,
+        "percentage": 33.9,
+        "incumbent": false
+      },
+      {
+        "id": "26-1",
+        "name": "Darrell Sampson",
+        "party": "democrat",
+        "votes": 156,
+        "percentage": 33.1,
+        "incumbent": false
+      },
+      {
+        "id": "26-2",
+        "name": "Shawn Wilson",
+        "party": "democrat",
+        "votes": 156,
+        "percentage": 33.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Avoyelles"
+    }
+  },
+  {
+    "id": 27,
+    "title": "Bayou Blue Fire Protection District -- 20 Mills Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "27-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 610,
+        "percentage": 68.7,
+        "incumbent": false
+      },
+      {
+        "id": "27-1",
+        "name": "No",
+        "party": "other",
+        "votes": 278,
+        "percentage": 31.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Lafourche"
+    }
+  },
+  {
+    "id": 28,
+    "title": "Bossier: City of Bossier City Prop. No. 1 of 3 -- Charter Restatement - CC",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "28-0",
+        "name": "No",
+        "party": "other",
+        "votes": 2116,
+        "percentage": 56.1,
+        "incumbent": false
+      },
+      {
+        "id": "28-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1659,
+        "percentage": 43.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 29,
+    "title": "Bossier: City of Bossier City Prop. No. 2 of 3 -- Amends Sec. 3.01(b) - CC",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "29-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1955,
+        "percentage": 50.8,
+        "incumbent": false
+      },
+      {
+        "id": "29-1",
+        "name": "No",
+        "party": "other",
+        "votes": 1897,
+        "percentage": 49.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 30,
+    "title": "Bossier: City of Bossier City Prop. No. 3 of 3 -- Amends Sec. 4.01 - CC",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "30-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 2068,
+        "percentage": 53.6,
+        "incumbent": false
+      },
+      {
+        "id": "30-1",
+        "name": "No",
+        "party": "other",
+        "votes": 1788,
+        "percentage": 46.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 31,
+    "title": "Bossier: Councilman -- District 2, City of Bossier City",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "31-0",
+        "name": "Debra W. Ross",
+        "party": "democrat",
+        "votes": 301,
+        "percentage": 74.1,
+        "incumbent": false
+      },
+      {
+        "id": "31-1",
+        "name": "\"Jeff\" Darby",
+        "party": "other",
+        "votes": 105,
+        "percentage": 25.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 32,
+    "title": "Bossier: Councilman -- District 3, City of Bossier City",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "32-0",
+        "name": "\"Cliff\" Smith",
+        "party": "republican",
+        "votes": 419,
+        "percentage": 58.5,
+        "incumbent": false
+      },
+      {
+        "id": "32-1",
+        "name": "Donzell Hughes",
+        "party": "democrat",
+        "votes": 297,
+        "percentage": 41.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 33,
+    "title": "Bossier: Councilman -- District 5, City of Bossier City",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "33-0",
+        "name": "\"Vince\" Maggio",
+        "party": "republican",
+        "votes": 402,
+        "percentage": 52,
+        "incumbent": false
+      },
+      {
+        "id": "33-1",
+        "name": "Ruth Pope Johnston",
+        "party": "republican",
+        "votes": 371,
+        "percentage": 48,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 34,
+    "title": "Bossier: Councilmen at Large -- City of Bossier City",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "34-0",
+        "name": "\"Chris\" Smith",
+        "party": "republican",
+        "votes": 1625,
+        "percentage": 34.6,
+        "incumbent": false
+      },
+      {
+        "id": "34-1",
+        "name": "Lee A. \"Gunny\" Jeter, Sr.",
+        "party": "democrat",
+        "votes": 1617,
+        "percentage": 34.4,
+        "incumbent": false
+      },
+      {
+        "id": "34-2",
+        "name": "Craton Cochran",
+        "party": "republican",
+        "votes": 1460,
+        "percentage": 31.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 35,
+    "title": "Bossier: Northeast Bossier Parish FPD No. 5 -- 27.50 Mills - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "35-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 85,
+        "percentage": 62.5,
+        "incumbent": false
+      },
+      {
+        "id": "35-1",
+        "name": "No",
+        "party": "other",
+        "votes": 51,
+        "percentage": 37.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 36,
+    "title": "Bossier: Town of Benton -- 4.90 Mills Renewal - M&BOA - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "36-0",
+        "name": "No",
+        "party": "other",
+        "votes": 65,
+        "percentage": 53.3,
+        "incumbent": false
+      },
+      {
+        "id": "36-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 57,
+        "percentage": 46.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Bossier"
+    }
+  },
+  {
+    "id": 37,
+    "title": "Caddo: Chief of Police -- Village of Mooringsport",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "37-0",
+        "name": "Shawn Fertenbaugh",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "37-1",
+        "name": "John C. McCaherty",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Caddo"
+    }
+  },
+  {
+    "id": 38,
+    "title": "Caddo: Fire District No. Six -- 1% S&U Tax - BOC - In Perp.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "38-0",
+        "name": "No",
+        "party": "other",
+        "votes": 339,
+        "percentage": 57.3,
+        "incumbent": false
+      },
+      {
+        "id": "38-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 253,
+        "percentage": 42.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Caddo"
+    }
+  },
+  {
+    "id": 39,
+    "title": "Caddo: Fire District Number Four -- 1% S&U Tax - BOC - In Perp.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "39-0",
+        "name": "No",
+        "party": "other",
+        "votes": 549,
+        "percentage": 65.5,
+        "incumbent": false
+      },
+      {
+        "id": "39-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 289,
+        "percentage": 34.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Caddo"
+    }
+  },
+  {
+    "id": 40,
+    "title": "Caddo: Member of School Board -- District  7",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "40-0",
+        "name": "Jerry Bowman",
+        "party": "democrat",
+        "votes": 770,
+        "percentage": 71.7,
+        "incumbent": false
+      },
+      {
+        "id": "40-1",
+        "name": "Mariam Tamica Harley",
+        "party": "democrat",
+        "votes": 304,
+        "percentage": 28.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Caddo"
+    }
+  },
+  {
+    "id": 41,
+    "title": "Caddo: PW School District Prop. No. 1 of 3 -- 19.49 Mills Renewal - SB - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "41-0",
+        "name": "No",
+        "party": "other",
+        "votes": 10679,
+        "percentage": 51,
+        "incumbent": false
+      },
+      {
+        "id": "41-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 10248,
+        "percentage": 49,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Caddo"
+    }
+  },
+  {
+    "id": 42,
+    "title": "Caddo: PW School District Prop. No. 2 of 3 -- 4.97 Mills Renewal - SB - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "42-0",
+        "name": "No",
+        "party": "other",
+        "votes": 10641,
+        "percentage": 50.9,
+        "incumbent": false
+      },
+      {
+        "id": "42-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 10277,
+        "percentage": 49.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Caddo"
+    }
+  },
+  {
+    "id": 43,
+    "title": "Caddo: PW School District Prop. No. 3 of 3 -- 1.21 Mills Renewal - SB - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "43-0",
+        "name": "No",
+        "party": "other",
+        "votes": 10688,
+        "percentage": 51.2,
+        "incumbent": false
+      },
+      {
+        "id": "43-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 10201,
+        "percentage": 48.8,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Caddo"
+    }
+  },
+  {
+    "id": 44,
+    "title": "Calcasieu: Councilman -- District B, City of Lake Charles",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "44-0",
+        "name": "Donald Fondel",
+        "party": "democrat",
+        "votes": 531,
+        "percentage": 51,
+        "incumbent": false
+      },
+      {
+        "id": "44-1",
+        "name": "Luvertha August",
+        "party": "democrat",
+        "votes": 511,
+        "percentage": 49,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Calcasieu"
+    }
+  },
+  {
+    "id": 45,
+    "title": "Calcasieu: Councilman -- District C, City of Lake Charles",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "45-0",
+        "name": "Tommy Bilbo",
+        "party": "democrat",
+        "votes": 694,
+        "percentage": 46.3,
+        "incumbent": false
+      },
+      {
+        "id": "45-1",
+        "name": "Priscilla Sam",
+        "party": "democrat",
+        "votes": 430,
+        "percentage": 28.7,
+        "incumbent": false
+      },
+      {
+        "id": "45-2",
+        "name": "Amanda Fontenot Johnson",
+        "party": "democrat",
+        "votes": 376,
+        "percentage": 25.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Calcasieu"
+    }
+  },
+  {
+    "id": 46,
+    "title": "Calcasieu: Mayor -- City of Lake Charles",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "46-0",
+        "name": "Nicholas \"Nic\" Hunter",
+        "party": "republican",
+        "votes": 4605,
+        "percentage": 48.2,
+        "incumbent": false
+      },
+      {
+        "id": "46-1",
+        "name": "Marshall Simien, Jr.",
+        "party": "other",
+        "votes": 2938,
+        "percentage": 30.7,
+        "incumbent": false
+      },
+      {
+        "id": "46-2",
+        "name": "Wilford Carter II",
+        "party": "democrat",
+        "votes": 2013,
+        "percentage": 21.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Calcasieu"
+    }
+  },
+  {
+    "id": 47,
+    "title": "Calcasieu: Mayor -- Town of Vinton",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "47-0",
+        "name": "Bonnie Jo Bahnsen",
+        "party": "republican",
+        "votes": 236,
+        "percentage": 52.7,
+        "incumbent": false
+      },
+      {
+        "id": "47-1",
+        "name": "Marcus Renfrow",
+        "party": "republican",
+        "votes": 212,
+        "percentage": 47.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Calcasieu"
+    }
+  },
+  {
+    "id": 52,
+    "title": "Claiborne: Fire Protection District No. 5 -- 20 Mills In-Lieu - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "52-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 186,
+        "percentage": 63.1,
+        "incumbent": false
+      },
+      {
+        "id": "52-1",
+        "name": "No",
+        "party": "other",
+        "votes": 109,
+        "percentage": 36.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Claiborne"
+    }
+  },
+  {
+    "id": 53,
+    "title": "Claiborne: PW School District Prop. No. 1 of 2 -- 5.22 Mills Continuation - SB - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "53-0",
+        "name": "No",
+        "party": "other",
+        "votes": 516,
+        "percentage": 52.8,
+        "incumbent": false
+      },
+      {
+        "id": "53-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 461,
+        "percentage": 47.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Claiborne"
+    }
+  },
+  {
+    "id": 54,
+    "title": "Claiborne: PW School District Prop.  No. 2 of 2 -- 5.22 Mills Continuation - SB - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "54-0",
+        "name": "No",
+        "party": "other",
+        "votes": 521,
+        "percentage": 53.4,
+        "incumbent": false
+      },
+      {
+        "id": "54-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 455,
+        "percentage": 46.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Claiborne"
+    }
+  },
+  {
+    "id": 55,
+    "title": "De Soto: Member of School Board -- District  6",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "55-0",
+        "name": "Phillip Palmer",
+        "party": "republican",
+        "votes": 254,
+        "percentage": 71.8,
+        "incumbent": false
+      },
+      {
+        "id": "55-1",
+        "name": "Raymond Sharrow",
+        "party": "republican",
+        "votes": 100,
+        "percentage": 28.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "De Soto"
+    }
+  },
+  {
+    "id": 56,
+    "title": "De Soto: Police Juror -- District 1C",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "56-0",
+        "name": "Stacey Justice",
+        "party": "other",
+        "votes": 250,
+        "percentage": 60,
+        "incumbent": false
+      },
+      {
+        "id": "56-1",
+        "name": "Coday Johnston",
+        "party": "republican",
+        "votes": 167,
+        "percentage": 40,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "De Soto"
+    }
+  },
+  {
+    "id": 57,
+    "title": "De Soto: Town of Stonewall Proposition No. 1 of 5 -- Wet/Dry-6% Pkg. Alcoh. - M&BOA",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "57-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 332,
+        "percentage": 61.5,
+        "incumbent": false
+      },
+      {
+        "id": "57-1",
+        "name": "No",
+        "party": "other",
+        "votes": 208,
+        "percentage": 38.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "De Soto"
+    }
+  },
+  {
+    "id": 58,
+    "title": "De Soto: Town of Stonewall Proposition No. 2 of 5 -- Wet/Dry-6% Con. Alcoh. - M&BOA",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "58-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 334,
+        "percentage": 62,
+        "incumbent": false
+      },
+      {
+        "id": "58-1",
+        "name": "No",
+        "party": "other",
+        "votes": 205,
+        "percentage": 38,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "De Soto"
+    }
+  },
+  {
+    "id": 59,
+    "title": "De Soto: Town of Stonewall Proposition No. 3 of 5 -- Wet/Dry-1/2% Con. Alcoh. - M&BOA",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "59-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 325,
+        "percentage": 60.5,
+        "incumbent": false
+      },
+      {
+        "id": "59-1",
+        "name": "No",
+        "party": "other",
+        "votes": 212,
+        "percentage": 39.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "De Soto"
+    }
+  },
+  {
+    "id": 60,
+    "title": "De Soto: Town of Stonewall Proposition No. 4 of 5 -- Wet/Dry-1/2% Pkg. Alcoh. - M&BOA",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "60-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 321,
+        "percentage": 59.9,
+        "incumbent": false
+      },
+      {
+        "id": "60-1",
+        "name": "No",
+        "party": "other",
+        "votes": 215,
+        "percentage": 40.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "De Soto"
+    }
+  },
+  {
+    "id": 61,
+    "title": "De Soto: Town of Stonewall Proposition No. 5 of 5 -- Wet/Dry-Restaurant - M&BOA",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "61-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 359,
+        "percentage": 66.7,
+        "incumbent": false
+      },
+      {
+        "id": "61-1",
+        "name": "No",
+        "party": "other",
+        "votes": 179,
+        "percentage": 33.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "De Soto"
+    }
+  },
+  {
+    "id": 62,
+    "title": "District Judge -- 21st Judicial District Court, Division I",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "62-0",
+        "name": "Jenny Richardson Fore",
+        "party": "republican",
+        "votes": 13328,
+        "percentage": 41.9,
+        "incumbent": false
+      },
+      {
+        "id": "62-1",
+        "name": "Jessica C. Ledet",
+        "party": "republican",
+        "votes": 9763,
+        "percentage": 30.7,
+        "incumbent": false
+      },
+      {
+        "id": "62-2",
+        "name": "Rebecca Davis-Lee",
+        "party": "republican",
+        "votes": 8727,
+        "percentage": 27.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Livingston"
+    }
+  },
+  {
+    "id": 63,
+    "title": "East Baton Rouge: City of St. George -- Establishing a HRC - CC",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "63-0",
+        "name": "No",
+        "party": "other",
+        "votes": 7127,
+        "percentage": 55.9,
+        "incumbent": false
+      },
+      {
+        "id": "63-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 5632,
+        "percentage": 44.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "East Baton Rouge"
+    }
+  },
+  {
+    "id": 64,
+    "title": "East Baton Rouge: Council Member(s) at Large -- City of St. George",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "64-0",
+        "name": "David Dellucci",
+        "party": "republican",
+        "votes": 5722,
+        "percentage": 40.7,
+        "incumbent": false
+      },
+      {
+        "id": "64-1",
+        "name": "\"Jim\" Talbot",
+        "party": "republican",
+        "votes": 4423,
+        "percentage": 31.4,
+        "incumbent": false
+      },
+      {
+        "id": "64-2",
+        "name": "Shaunn Wyche",
+        "party": "democrat",
+        "votes": 3931,
+        "percentage": 27.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "East Baton Rouge"
+    }
+  },
+  {
+    "id": 65,
+    "title": "East Baton Rouge: Council Member -- District 4, City of St. George",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "65-0",
+        "name": "Patricia \"Patty\" Cook",
+        "party": "republican",
+        "votes": 1191,
+        "percentage": 53.3,
+        "incumbent": false
+      },
+      {
+        "id": "65-1",
+        "name": "David Madaffari",
+        "party": "other",
+        "votes": 523,
+        "percentage": 23.4,
+        "incumbent": false
+      },
+      {
+        "id": "65-2",
+        "name": "Justin Turner",
+        "party": "republican",
+        "votes": 522,
+        "percentage": 23.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "East Baton Rouge"
+    }
+  },
+  {
+    "id": 66,
+    "title": "East Baton Rouge: Mayor -- City of St. George",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "66-0",
+        "name": "Dustin Yates",
+        "party": "republican",
+        "votes": 7629,
+        "percentage": 65.8,
+        "incumbent": false
+      },
+      {
+        "id": "66-1",
+        "name": "Jim Morgan",
+        "party": "republican",
+        "votes": 3970,
+        "percentage": 34.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "East Baton Rouge"
+    }
+  },
+  {
+    "id": 67,
+    "title": "East Baton Rouge: Wedgewood Crime Prev. & Imp. Dist. -- $95 Parcel Fee Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "67-0",
+        "name": "No",
+        "party": "other",
+        "votes": 126,
+        "percentage": 52.7,
+        "incumbent": false
+      },
+      {
+        "id": "67-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 113,
+        "percentage": 47.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "East Baton Rouge"
+    }
+  },
+  {
+    "id": 68,
+    "title": "Iberia: City of New Iberia -- 0.25% S&U Tax - CC - In Perp.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "68-0",
+        "name": "No",
+        "party": "other",
+        "votes": 1158,
+        "percentage": 53.6,
+        "incumbent": false
+      },
+      {
+        "id": "68-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1004,
+        "percentage": 46.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Iberia"
+    }
+  },
+  {
+    "id": 69,
+    "title": "Iberia: Fire Protection District No. 1 -- 3.50 Mills - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "69-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 2023,
+        "percentage": 61.5,
+        "incumbent": false
+      },
+      {
+        "id": "69-1",
+        "name": "No",
+        "party": "other",
+        "votes": 1269,
+        "percentage": 38.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Iberia"
+    }
+  },
+  {
+    "id": 70,
+    "title": "Iberia: Parishwide Proposition (Library) -- 4.50 Mills Cont. - PC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "70-0",
+        "name": "No",
+        "party": "other",
+        "votes": 3197,
+        "percentage": 52.5,
+        "incumbent": false
+      },
+      {
+        "id": "70-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 2894,
+        "percentage": 47.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Iberia"
+    }
+  },
+  {
+    "id": 71,
+    "title": "Jackson: PW Law Enforcement District -- 9.23 Mills Continuation - Sheriff - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "71-0",
+        "name": "No",
+        "party": "other",
+        "votes": 1060,
+        "percentage": 63,
+        "incumbent": false
+      },
+      {
+        "id": "71-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 622,
+        "percentage": 37,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jackson"
+    }
+  },
+  {
+    "id": 72,
+    "title": "Jefferson Davis: Councilman -- District A, City of Jennings",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "72-0",
+        "name": "Carolyn King Simon",
+        "party": "other",
+        "votes": 79,
+        "percentage": 53.7,
+        "incumbent": false
+      },
+      {
+        "id": "72-1",
+        "name": "Elisha Neal Duhon",
+        "party": "republican",
+        "votes": 41,
+        "percentage": 27.9,
+        "incumbent": false
+      },
+      {
+        "id": "72-2",
+        "name": "Marcus Davis",
+        "party": "other",
+        "votes": 27,
+        "percentage": 18.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson Davis"
+    }
+  },
+  {
+    "id": 73,
+    "title": "Jefferson Davis: Councilman -- District B, City of Jennings",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "73-0",
+        "name": "Wayne Ledbetter",
+        "party": "republican",
+        "votes": 76,
+        "percentage": 53.1,
+        "incumbent": false
+      },
+      {
+        "id": "73-1",
+        "name": "William J. \"Johnny\" Armentor",
+        "party": "republican",
+        "votes": 67,
+        "percentage": 46.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson Davis"
+    }
+  },
+  {
+    "id": 74,
+    "title": "Jefferson Davis: Councilman -- District C, City of Jennings",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "74-0",
+        "name": "Carl P. Benoit",
+        "party": "other",
+        "votes": 133,
+        "percentage": 64.6,
+        "incumbent": false
+      },
+      {
+        "id": "74-1",
+        "name": "Clifton LeJeune",
+        "party": "republican",
+        "votes": 73,
+        "percentage": 35.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson Davis"
+    }
+  },
+  {
+    "id": 75,
+    "title": "Jefferson Davis: Councilman -- District D, City of Jennings",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "75-0",
+        "name": "Anthony LeBlanc, Jr.",
+        "party": "democrat",
+        "votes": 64,
+        "percentage": 71.9,
+        "incumbent": false
+      },
+      {
+        "id": "75-1",
+        "name": "Ray Touchet",
+        "party": "democrat",
+        "votes": 25,
+        "percentage": 28.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson Davis"
+    }
+  },
+  {
+    "id": 76,
+    "title": "Jefferson Davis: Gravity Drainage District No. 6 -- 5.73 Mills Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "76-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 132,
+        "percentage": 66.7,
+        "incumbent": false
+      },
+      {
+        "id": "76-1",
+        "name": "No",
+        "party": "other",
+        "votes": 66,
+        "percentage": 33.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson Davis"
+    }
+  },
+  {
+    "id": 77,
+    "title": "Jefferson Davis: Mayor -- City of Jennings",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "77-0",
+        "name": "Henry Guinn",
+        "party": "republican",
+        "votes": 399,
+        "percentage": 51.5,
+        "incumbent": false
+      },
+      {
+        "id": "77-1",
+        "name": "Melvin J. Adams",
+        "party": "democrat",
+        "votes": 330,
+        "percentage": 42.6,
+        "incumbent": false
+      },
+      {
+        "id": "77-2",
+        "name": "Christopher \"Chris\" Carrier",
+        "party": "democrat",
+        "votes": 46,
+        "percentage": 5.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson Davis"
+    }
+  },
+  {
+    "id": 78,
+    "title": "Jefferson: Councilman -- District 1",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "78-0",
+        "name": "Timothy Kerner, Jr.",
+        "party": "republican",
+        "votes": 3901,
+        "percentage": 37.5,
+        "incumbent": false
+      },
+      {
+        "id": "78-1",
+        "name": "Andrea Manuel",
+        "party": "democrat",
+        "votes": 3748,
+        "percentage": 36,
+        "incumbent": false
+      },
+      {
+        "id": "78-2",
+        "name": "Ricky Templet",
+        "party": "republican",
+        "votes": 2762,
+        "percentage": 26.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson"
+    }
+  },
+  {
+    "id": 79,
+    "title": "Jefferson: Council Member -- District 1, City of Westwego",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "79-0",
+        "name": "John I. \"Johnny\" Shaddinger, Jr.",
+        "party": "democrat",
+        "votes": 144,
+        "percentage": 57.6,
+        "incumbent": false
+      },
+      {
+        "id": "79-1",
+        "name": "Jason LeBlanc",
+        "party": "republican",
+        "votes": 61,
+        "percentage": 24.4,
+        "incumbent": false
+      },
+      {
+        "id": "79-2",
+        "name": "Maggie \"May\" Campbell",
+        "party": "democrat",
+        "votes": 45,
+        "percentage": 18,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson"
+    }
+  },
+  {
+    "id": 80,
+    "title": "Jefferson: Council Member -- District 2, City of Westwego",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "80-0",
+        "name": "Johnny Nobles, Jr.",
+        "party": "republican",
+        "votes": 234,
+        "percentage": 73.6,
+        "incumbent": false
+      },
+      {
+        "id": "80-1",
+        "name": "Timothy \"Tim\" Matherne",
+        "party": "republican",
+        "votes": 84,
+        "percentage": 26.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson"
+    }
+  },
+  {
+    "id": 81,
+    "title": "Jefferson: Council Member -- District 4, City of Gretna",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "81-0",
+        "name": "Randy Carr",
+        "party": "republican",
+        "votes": 380,
+        "percentage": 52.3,
+        "incumbent": false
+      },
+      {
+        "id": "81-1",
+        "name": "Robert \"Bobby\" Black",
+        "party": "republican",
+        "votes": 346,
+        "percentage": 47.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson"
+    }
+  },
+  {
+    "id": 82,
+    "title": "Jefferson: Council Member -- District 5, City of Westwego",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "82-0",
+        "name": "Robert \"Bobby B\" Bonvillian",
+        "party": "republican",
+        "votes": 164,
+        "percentage": 51.7,
+        "incumbent": false
+      },
+      {
+        "id": "82-1",
+        "name": "Larry Warino",
+        "party": "republican",
+        "votes": 153,
+        "percentage": 48.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson"
+    }
+  },
+  {
+    "id": 83,
+    "title": "Jefferson: West Jefferson Levee District -- 4.75 Mills Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "83-0",
+        "name": "No",
+        "party": "other",
+        "votes": 13224,
+        "percentage": 65.3,
+        "incumbent": false
+      },
+      {
+        "id": "83-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 7027,
+        "percentage": 34.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Jefferson"
+    }
+  },
+  {
+    "id": 84,
+    "title": "Lafayette: Parishwide Proposition No. 1 of 2 -- 4.47 Mills Cont. - PC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "84-0",
+        "name": "No",
+        "party": "other",
+        "votes": 9799,
+        "percentage": 56,
+        "incumbent": false
+      },
+      {
+        "id": "84-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 7708,
+        "percentage": 44,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Lafayette"
+    }
+  },
+  {
+    "id": 85,
+    "title": "Lafayette: Parishwide Proposition No. 2 of 2 -- 3.81 Mills Cont. - PC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "85-0",
+        "name": "No",
+        "party": "other",
+        "votes": 9605,
+        "percentage": 54.9,
+        "incumbent": false
+      },
+      {
+        "id": "85-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 7888,
+        "percentage": 45.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Lafayette"
+    }
+  },
+  {
+    "id": 86,
+    "title": "Lafourche: City of Thibodaux -- 5 Mills Renewal - CC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "86-0",
+        "name": "No",
+        "party": "other",
+        "votes": 886,
+        "percentage": 55.3,
+        "incumbent": false
+      },
+      {
+        "id": "86-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 715,
+        "percentage": 44.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Lafourche"
+    }
+  },
+  {
+    "id": 87,
+    "title": "Lafourche: Fire Protection District No. 4 -- 6.02 Mills Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "87-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 274,
+        "percentage": 60,
+        "incumbent": false
+      },
+      {
+        "id": "87-1",
+        "name": "No",
+        "party": "other",
+        "votes": 183,
+        "percentage": 40,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Lafourche"
+    }
+  },
+  {
+    "id": 88,
+    "title": "Livingston: Aldermen -- Town of Killian",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "88-0",
+        "name": "Corey Beasley",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "88-1",
+        "name": "Wesley Bignar",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "88-2",
+        "name": "Trevor Clardy",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Livingston"
+    }
+  },
+  {
+    "id": 89,
+    "title": "Livingston: Mayor -- Town of Killian",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "89-0",
+        "name": "Caleb Atwell",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "89-1",
+        "name": "Louis McKinney, Jr.",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Livingston"
+    }
+  },
+  {
+    "id": 90,
+    "title": "Mayor -- City of DeRidder",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "90-0",
+        "name": "Michael D. Harris",
+        "party": "other",
+        "votes": 750,
+        "percentage": 39.6,
+        "incumbent": false
+      },
+      {
+        "id": "90-1",
+        "name": "\"Danny\" Reynolds",
+        "party": "republican",
+        "votes": 737,
+        "percentage": 39,
+        "incumbent": false
+      },
+      {
+        "id": "90-2",
+        "name": "\"Randy\" Larken",
+        "party": "other",
+        "votes": 405,
+        "percentage": 21.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Beauregard"
+    }
+  },
+  {
+    "id": 91,
+    "title": "Morehouse: Alderman -- District A, City of Bastrop",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "91-0",
+        "name": "Angela Tappin",
+        "party": "democrat",
+        "votes": 89,
+        "percentage": 67.4,
+        "incumbent": false
+      },
+      {
+        "id": "91-1",
+        "name": "Carl \"Wally\" Givens",
+        "party": "democrat",
+        "votes": 43,
+        "percentage": 32.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Morehouse"
+    }
+  },
+  {
+    "id": 92,
+    "title": "Morehouse: Alderman -- District B, City of Bastrop",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "92-0",
+        "name": "Henry Flood Doaty",
+        "party": "other",
+        "votes": 64,
+        "percentage": 41.6,
+        "incumbent": false
+      },
+      {
+        "id": "92-1",
+        "name": "Ronald \"Hite\" Wilhite",
+        "party": "democrat",
+        "votes": 49,
+        "percentage": 31.8,
+        "incumbent": false
+      },
+      {
+        "id": "92-2",
+        "name": "Brashunzi \"Shun\" Harris",
+        "party": "democrat",
+        "votes": 41,
+        "percentage": 26.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Morehouse"
+    }
+  },
+  {
+    "id": 93,
+    "title": "Morehouse: Mayor -- City of Bastrop",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "93-0",
+        "name": "Mark A. Moore, Sr.",
+        "party": "democrat",
+        "votes": 371,
+        "percentage": 55.5,
+        "incumbent": false
+      },
+      {
+        "id": "93-1",
+        "name": "Betty Alford Olive",
+        "party": "democrat",
+        "votes": 173,
+        "percentage": 25.9,
+        "incumbent": false
+      },
+      {
+        "id": "93-2",
+        "name": "Charles Henry Bradford",
+        "party": "democrat",
+        "votes": 125,
+        "percentage": 18.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Morehouse"
+    }
+  },
+  {
+    "id": 94,
+    "title": "Morehouse: Police Juror -- District  5",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "94-0",
+        "name": "Wanda Reese Davis",
+        "party": "democrat",
+        "votes": 136,
+        "percentage": 72.3,
+        "incumbent": false
+      },
+      {
+        "id": "94-1",
+        "name": "Hendrik \"Rick\" Van Loon",
+        "party": "other",
+        "votes": 52,
+        "percentage": 27.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Morehouse"
+    }
+  },
+  {
+    "id": 95,
+    "title": "Orleans: Lakeview Crime Prevention District -- $150 Parcel Fee - CC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "95-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1329,
+        "percentage": 56.1,
+        "incumbent": false
+      },
+      {
+        "id": "95-1",
+        "name": "No",
+        "party": "other",
+        "votes": 1039,
+        "percentage": 43.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Orleans"
+    }
+  },
+  {
+    "id": 96,
+    "title": "Ouachita: City of West Monroe -- 4.50 Mills - M&BOA - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "96-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 349,
+        "percentage": 50.3,
+        "incumbent": false
+      },
+      {
+        "id": "96-1",
+        "name": "No",
+        "party": "other",
+        "votes": 345,
+        "percentage": 49.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Ouachita"
+    }
+  },
+  {
+    "id": 97,
+    "title": "Ouachita: East Ouachita Recreation District No. 1 -- 7.43 Mills Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "97-0",
+        "name": "No",
+        "party": "other",
+        "votes": 1213,
+        "percentage": 51,
+        "incumbent": false
+      },
+      {
+        "id": "97-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1165,
+        "percentage": 49,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Ouachita"
+    }
+  },
+  {
+    "id": 98,
+    "title": "Ouachita: PW Prop. No. 1 of 2 (Library) -- 7.64 Mills Renewal - PJ - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "98-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 5427,
+        "percentage": 52.7,
+        "incumbent": false
+      },
+      {
+        "id": "98-1",
+        "name": "No",
+        "party": "other",
+        "votes": 4874,
+        "percentage": 47.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Ouachita"
+    }
+  },
+  {
+    "id": 99,
+    "title": "Ouachita: PW Prop. No. 2 of 2 (Juvenile Detention Center) -- 2.90 Mills Renewal - PJ - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "99-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 5156,
+        "percentage": 50.1,
+        "incumbent": false
+      },
+      {
+        "id": "99-1",
+        "name": "No",
+        "party": "other",
+        "votes": 5127,
+        "percentage": 49.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Ouachita"
+    }
+  },
+  {
+    "id": 100,
+    "title": "Plaquemines: Parishwide Charter Amendment -- Amends Art. 4 & Art. 5.1 - PC",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "100-0",
+        "name": "No",
+        "party": "other",
+        "votes": 1527,
+        "percentage": 71.6,
+        "incumbent": false
+      },
+      {
+        "id": "100-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 605,
+        "percentage": 28.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Plaquemines"
+    }
+  },
+  {
+    "id": 101,
+    "title": "Rapides: Clerk of Court",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "101-0",
+        "name": "Karan Corley",
+        "party": "republican",
+        "votes": 8039,
+        "percentage": 73.2,
+        "incumbent": false
+      },
+      {
+        "id": "101-1",
+        "name": "Thomas David III",
+        "party": "republican",
+        "votes": 2950,
+        "percentage": 26.8,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Rapides"
+    }
+  },
+  {
+    "id": 102,
+    "title": "Rapides: Justice of the Peace -- Justice of the Peace Ward  2",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "102-0",
+        "name": "Brian Hickman",
+        "party": "republican",
+        "votes": 448,
+        "percentage": 61,
+        "incumbent": false
+      },
+      {
+        "id": "102-1",
+        "name": "Kevin Kitchen",
+        "party": "republican",
+        "votes": 287,
+        "percentage": 39,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Rapides"
+    }
+  },
+  {
+    "id": 103,
+    "title": "Rapides: Mayor -- Town of Cheneyville",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "103-0",
+        "name": "Ronny Green, Jr.",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "103-1",
+        "name": "Francis Mitchell",
+        "party": "democrat",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Rapides"
+    }
+  },
+  {
+    "id": 104,
+    "title": "Rapides: Police Juror -- District B",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "104-0",
+        "name": "Randy Wiggins",
+        "party": "republican",
+        "votes": 723,
+        "percentage": 66.1,
+        "incumbent": false
+      },
+      {
+        "id": "104-1",
+        "name": "Kevin Sasser",
+        "party": "republican",
+        "votes": 371,
+        "percentage": 33.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Rapides"
+    }
+  },
+  {
+    "id": 105,
+    "title": "Red River: Member of School Board -- District 6",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "105-0",
+        "name": "Reginald Prealow",
+        "party": "democrat",
+        "votes": 86,
+        "percentage": 58.5,
+        "incumbent": false
+      },
+      {
+        "id": "105-1",
+        "name": "Richard Logan",
+        "party": "democrat",
+        "votes": 61,
+        "percentage": 41.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Red River"
+    }
+  },
+  {
+    "id": 106,
+    "title": "Red River: Parishwide Fire Protection District -- 4.66 Mills Continuation - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "106-0",
+        "name": "No",
+        "party": "other",
+        "votes": 444,
+        "percentage": 59.8,
+        "incumbent": false
+      },
+      {
+        "id": "106-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 298,
+        "percentage": 40.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Red River"
+    }
+  },
+  {
+    "id": 107,
+    "title": "Red River: Parishwide Proposition -- 1.21 Mills Cont. - PJ - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "107-0",
+        "name": "No",
+        "party": "other",
+        "votes": 435,
+        "percentage": 58.8,
+        "incumbent": false
+      },
+      {
+        "id": "107-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 305,
+        "percentage": 41.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Red River"
+    }
+  },
+  {
+    "id": 108,
+    "title": "Richland: Aldermen -- Town of Mangham",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "108-0",
+        "name": "Kathryn \"Paula\" Carter",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "108-1",
+        "name": "Mary Nichols",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "108-2",
+        "name": "Andrea Ramsey",
+        "party": "democrat",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Richland"
+    }
+  },
+  {
+    "id": 109,
+    "title": "Richland: Mayor -- Town of Mangham",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "109-0",
+        "name": "Charlotte Boone",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "109-1",
+        "name": "Kristi Fleming",
+        "party": "republican",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Richland"
+    }
+  },
+  {
+    "id": 110,
+    "title": "Sabine: Alderman at Large -- Town of Many",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "110-0",
+        "name": "Jamey McIntyre",
+        "party": "other",
+        "votes": 130,
+        "percentage": 51.6,
+        "incumbent": false
+      },
+      {
+        "id": "110-1",
+        "name": "Mary \"Key\" Brocato",
+        "party": "democrat",
+        "votes": 122,
+        "percentage": 48.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Sabine"
+    }
+  },
+  {
+    "id": 111,
+    "title": "Sabine: Chief of Police -- Town of Many",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "111-0",
+        "name": "Cheryl Wooley",
+        "party": "republican",
+        "votes": 171,
+        "percentage": 66.5,
+        "incumbent": false
+      },
+      {
+        "id": "111-1",
+        "name": "Phillip \"Koolaid\" Cutrer",
+        "party": "other",
+        "votes": 86,
+        "percentage": 33.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Sabine"
+    }
+  },
+  {
+    "id": 112,
+    "title": "Sabine: Member of School Board -- District 9",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "112-0",
+        "name": "Dean Johnson",
+        "party": "other",
+        "votes": 283,
+        "percentage": 73.7,
+        "incumbent": false
+      },
+      {
+        "id": "112-1",
+        "name": "Sheryl Scott",
+        "party": "democrat",
+        "votes": 101,
+        "percentage": 26.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Sabine"
+    }
+  },
+  {
+    "id": 113,
+    "title": "St. Charles: Justice of the Peace -- Justice of the Peace District 6",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "113-0",
+        "name": "Theron Dufrene",
+        "party": "republican",
+        "votes": 474,
+        "percentage": 58.4,
+        "incumbent": false
+      },
+      {
+        "id": "113-1",
+        "name": "David Weber",
+        "party": "other",
+        "votes": 337,
+        "percentage": 41.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Charles"
+    }
+  },
+  {
+    "id": 114,
+    "title": "St. James: Parishwide Law Enforcement District -- 12.50 Mills Renewal - Sheriff - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "114-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 2043,
+        "percentage": 62.9,
+        "incumbent": false
+      },
+      {
+        "id": "114-1",
+        "name": "No",
+        "party": "other",
+        "votes": 1205,
+        "percentage": 37.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St James"
+    }
+  },
+  {
+    "id": 115,
+    "title": "St. Landry: Fire Protection District No. 3 -- 10.36 Mills Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "115-0",
+        "name": "No",
+        "party": "other",
+        "votes": 1443,
+        "percentage": 59.8,
+        "incumbent": false
+      },
+      {
+        "id": "115-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 969,
+        "percentage": 40.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Landry"
+    }
+  },
+  {
+    "id": 116,
+    "title": "St. Mary: Member of School Board -- District  7",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "116-0",
+        "name": "Lawrence Guillory",
+        "party": "republican",
+        "votes": 413,
+        "percentage": 64.8,
+        "incumbent": false
+      },
+      {
+        "id": "116-1",
+        "name": "Carla B. Pellerin",
+        "party": "other",
+        "votes": 224,
+        "percentage": 35.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Mary"
+    }
+  },
+  {
+    "id": 117,
+    "title": "St. Tammany: Councilman -- District B, City of Covington",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "117-0",
+        "name": "Blake Bushnell",
+        "party": "republican",
+        "votes": 93,
+        "percentage": 54.1,
+        "incumbent": false
+      },
+      {
+        "id": "117-1",
+        "name": "Blaine Stanga",
+        "party": "other",
+        "votes": 53,
+        "percentage": 30.8,
+        "incumbent": false
+      },
+      {
+        "id": "117-2",
+        "name": "Hermon Joseph",
+        "party": "other",
+        "votes": 26,
+        "percentage": 15.1,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Tammany"
+    }
+  },
+  {
+    "id": 118,
+    "title": "St. Tammany: Parishwide Proposition (Library) -- 4.35 Mills Continuation - PC - 15 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "118-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 14799,
+        "percentage": 53.6,
+        "incumbent": false
+      },
+      {
+        "id": "118-1",
+        "name": "No",
+        "party": "other",
+        "votes": 12801,
+        "percentage": 46.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Tammany"
+    }
+  },
+  {
+    "id": 119,
+    "title": "St. Tammany: Road Lighting District No. 10 -- $80 Service Charge - PC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "119-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 14,
+        "percentage": 73.7,
+        "incumbent": false
+      },
+      {
+        "id": "119-1",
+        "name": "No",
+        "party": "other",
+        "votes": 5,
+        "percentage": 26.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Tammany"
+    }
+  },
+  {
+    "id": 120,
+    "title": "St. Tammany: Sales Tax District No. Three -- 2% S&U Tax Reded. - PC - 25 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "120-0",
+        "name": "No",
+        "party": "other",
+        "votes": 11900,
+        "percentage": 53.7,
+        "incumbent": false
+      },
+      {
+        "id": "120-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 10277,
+        "percentage": 46.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Tammany"
+    }
+  },
+  {
+    "id": 121,
+    "title": "St. Tammany: Village of Folsom -- 0.50% S&U Tax Renewal - M&BOA - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "121-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "121-1",
+        "name": "No",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "St Tammany"
+    }
+  },
+  {
+    "id": 122,
+    "title": "Tangipahoa: Aldermen -- Village of Tangipahoa",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "122-0",
+        "name": "\"Pam\" Bean",
+        "party": "democrat",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "122-1",
+        "name": "Irma \"Rene\" Cook",
+        "party": "other",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      },
+      {
+        "id": "122-2",
+        "name": "Salvador Pedro Rodriguez",
+        "party": "democrat",
+        "votes": 0,
+        "percentage": 0,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Tangipahoa"
+    }
+  },
+  {
+    "id": 123,
+    "title": "Tangipahoa: Mosquito Abatement District No. 1 -- 4.98 Mills Renewal - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "123-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 4597,
+        "percentage": 54.5,
+        "incumbent": false
+      },
+      {
+        "id": "123-1",
+        "name": "No",
+        "party": "other",
+        "votes": 3835,
+        "percentage": 45.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Tangipahoa"
+    }
+  },
+  {
+    "id": 124,
+    "title": "Tangipahoa: Parishwide Law Enforcement District -- 3/4% S&U Tax - Sheriff - In Perp.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "124-0",
+        "name": "No",
+        "party": "other",
+        "votes": 6906,
+        "percentage": 55.5,
+        "incumbent": false
+      },
+      {
+        "id": "124-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 5544,
+        "percentage": 44.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Tangipahoa"
+    }
+  },
+  {
+    "id": 125,
+    "title": "Union: Spencer-West Sterlington Fire Protection District -- $40 Service Charge - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "125-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 71,
+        "percentage": 74,
+        "incumbent": false
+      },
+      {
+        "id": "125-1",
+        "name": "No",
+        "party": "other",
+        "votes": 25,
+        "percentage": 26,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Union"
+    }
+  },
+  {
+    "id": 126,
+    "title": "Vermilion: Councilman -- District B, City of Abbeville",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "126-0",
+        "name": "Francis J. Plaisance",
+        "party": "republican",
+        "votes": 89,
+        "percentage": 52,
+        "incumbent": false
+      },
+      {
+        "id": "126-1",
+        "name": "Rachel Touchet Mouton",
+        "party": "republican",
+        "votes": 82,
+        "percentage": 48,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Vermilion"
+    }
+  },
+  {
+    "id": 127,
+    "title": "Washington: Member of School Board -- District  8",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "127-0",
+        "name": "Amanda Dillon",
+        "party": "democrat",
+        "votes": 319,
+        "percentage": 81,
+        "incumbent": false
+      },
+      {
+        "id": "127-1",
+        "name": "Alainna Lindsey-Holmes",
+        "party": "republican",
+        "votes": 75,
+        "percentage": 19,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Washington"
+    }
+  },
+  {
+    "id": 128,
+    "title": "Webster: Fire Protection District No. 2 (Sibley) -- 10 Mills Continuation - BOC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "128-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 41,
+        "percentage": 52.6,
+        "incumbent": false
+      },
+      {
+        "id": "128-1",
+        "name": "No",
+        "party": "other",
+        "votes": 37,
+        "percentage": 47.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "Webster"
+    }
+  },
+  {
+    "id": 129,
+    "title": "West Baton Rouge: PW Prop. No. 1 of 2 (Drainage) -- 7.2 Mills Renewal - PC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "129-0",
+        "name": "No",
+        "party": "other",
+        "votes": 2020,
+        "percentage": 58.7,
+        "incumbent": false
+      },
+      {
+        "id": "129-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1419,
+        "percentage": 41.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "West Baton Rouge"
+    }
+  },
+  {
+    "id": 130,
+    "title": "West Baton Rouge: PW Prop. No. 2 of 2 (Library) -- 4.1 Mills Renewal - PC - 10 Yrs.",
+    "state": "LA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "130-0",
+        "name": "No",
+        "party": "other",
+        "votes": 2025,
+        "percentage": 58.8,
+        "incumbent": false
+      },
+      {
+        "id": "130-1",
+        "name": "Yes",
+        "party": "other",
+        "votes": 1419,
+        "percentage": 41.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "LA",
+      "district": "West Baton Rouge"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Laurel Delaware Mayor General Election",
+    "state": "DE",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "15-0",
+        "name": "Carlos Oliveras",
+        "party": "other",
+        "votes": 112,
+        "percentage": 51.6,
+        "incumbent": false
+      },
+      {
+        "id": "15-1",
+        "name": "John Shwed",
+        "party": "other",
+        "votes": 105,
+        "percentage": 48.4,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "DE",
+      "district": "Sussex"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Laurel Town Council Ward 3 General Election",
+    "state": "DE",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "16-0",
+        "name": "Jonathan Kellam",
+        "party": "other",
+        "votes": 72,
+        "percentage": 84.7,
+        "incumbent": false
+      },
+      {
+        "id": "16-1",
+        "name": "Gregory Harris",
+        "party": "other",
+        "votes": 13,
+        "percentage": 15.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "DE",
+      "district": "Sussex"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Laurel Town Council At-large General Election",
+    "state": "DE",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "17-0",
+        "name": "Donald Holden",
+        "party": "other",
+        "votes": 158,
+        "percentage": 73.8,
+        "incumbent": false
+      },
+      {
+        "id": "17-1",
+        "name": "Laura Mackey",
+        "party": "other",
+        "votes": 56,
+        "percentage": 26.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "DE",
+      "district": "Sussex"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Mt. Pleasant Town Council At-large Special Election",
+    "state": "SC",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "14-0",
+        "name": "Mike Tinkey",
+        "party": "other",
+        "votes": 2289,
+        "percentage": 51.4,
+        "incumbent": false
+      },
+      {
+        "id": "14-1",
+        "name": "Bob Swain",
+        "party": "other",
+        "votes": 1664,
+        "percentage": 37.4,
+        "incumbent": false
+      },
+      {
+        "id": "14-2",
+        "name": "Garrett Lacy",
+        "party": "other",
+        "votes": 498,
+        "percentage": 11.2,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "SC",
+      "district": "Charleston"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Collbran Board of Trustees Special General (2 seats)",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "3-0",
+        "name": "William Bethel",
+        "party": "other",
+        "votes": 59,
+        "percentage": 73.8,
+        "incumbent": false
+      },
+      {
+        "id": "3-1",
+        "name": "Norman Stahly",
+        "party": "other",
+        "votes": 21,
+        "percentage": 26.3,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "Mesa"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Matilda Evans and Lorraine Zentz recall",
+    "state": "CO",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "4-0",
+        "name": "Yes",
+        "party": "other",
+        "votes": 58,
+        "percentage": 53.2,
+        "incumbent": false
+      },
+      {
+        "id": "4-1",
+        "name": "No",
+        "party": "other",
+        "votes": 51,
+        "percentage": 46.8,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "4-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "CO",
+      "district": "Mesa"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Jupiter Town Council First District At-large Run-Off Election",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "5-0",
+        "name": "Phyllis Choy",
+        "party": "other",
+        "votes": 2595,
+        "percentage": 57,
+        "incumbent": false
+      },
+      {
+        "id": "5-1",
+        "name": "Teri Grooms",
+        "party": "other",
+        "votes": 1954,
+        "percentage": 43,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Palm Beach"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Lake Worth Beach City Commissioner Board District 4",
+    "state": "FL",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "6-0",
+        "name": "Anthony Segrich",
+        "party": "other",
+        "votes": 394,
+        "percentage": 53.4,
+        "incumbent": false
+      },
+      {
+        "id": "6-1",
+        "name": "Greg Ritcher",
+        "party": "other",
+        "votes": 344,
+        "percentage": 46.6,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "FL",
+      "district": "Palm Beach"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Mississippi State House District 23 Special Election",
+    "state": "MS",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "7-0",
+        "name": "Perry Van Bailey",
+        "party": "other",
+        "votes": 1190,
+        "percentage": 43.9,
+        "incumbent": false
+      },
+      {
+        "id": "7-1",
+        "name": "Colby Bollinger",
+        "party": "other",
+        "votes": 938,
+        "percentage": 34.6,
+        "incumbent": false
+      },
+      {
+        "id": "7-2",
+        "name": "Travis Wright",
+        "party": "other",
+        "votes": 583,
+        "percentage": 21.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "7-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "MS",
+      "district": "HD-23"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Mississippi State House District 82 Special Election",
+    "state": "MS",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "8-0",
+        "name": "Gregory Elliot",
+        "party": "other",
+        "votes": 555,
+        "percentage": 40.3,
+        "incumbent": false
+      },
+      {
+        "id": "8-1",
+        "name": "Joseph Denson",
+        "party": "other",
+        "votes": 413,
+        "percentage": 30,
+        "incumbent": false
+      },
+      {
+        "id": "8-2",
+        "name": "Joseph Norwood",
+        "party": "other",
+        "votes": 409,
+        "percentage": 29.7,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "8-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "MS",
+      "district": "HD-82"
+    }
+  },
+  {
+    "id": 9,
+    "title": "New York City Council District 44 Special Election",
+    "state": "NY",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "9-0",
+        "name": "Simcha Felder",
+        "party": "other",
+        "votes": 4479,
+        "percentage": 82.5,
+        "incumbent": false
+      },
+      {
+        "id": "9-1",
+        "name": "Harold Tischler",
+        "party": "other",
+        "votes": 949,
+        "percentage": 17.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "NY",
+      "district": "CD-44"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Pennsylvania State Senate District 36 Special Election",
+    "state": "PA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "10-0",
+        "name": "James Andrew Malone",
+        "party": "democrat",
+        "votes": 26951,
+        "percentage": 50,
+        "incumbent": false
+      },
+      {
+        "id": "10-1",
+        "name": "Josh Parsons",
+        "party": "republican",
+        "votes": 26469,
+        "percentage": 49.1,
+        "incumbent": false
+      },
+      {
+        "id": "10-2",
+        "name": "Zachary Moore",
+        "party": "libertarian",
+        "votes": 480,
+        "percentage": 0.9,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "10-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "PA",
+      "district": "SD-36"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Pennsylvania State House District 35 Special Election",
+    "state": "PA",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "11-0",
+        "name": "Dan Goughnour",
+        "party": "democrat",
+        "votes": 6796,
+        "percentage": 63.4,
+        "incumbent": false
+      },
+      {
+        "id": "11-1",
+        "name": "Charles D. Davis",
+        "party": "republican",
+        "votes": 3751,
+        "percentage": 35,
+        "incumbent": false
+      },
+      {
+        "id": "11-2",
+        "name": "Adam Kitta",
+        "party": "libertarian",
+        "votes": 166,
+        "percentage": 1.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 100,
+      "percentage": 100
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": true,
+    "winner": "11-0",
+    "isLive": false,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "PA",
+      "district": "HD-35"
+    }
+  },
+  {
+    "id": 12,
+    "title": "South Carolina House of Representatives District 113 Special Election",
+    "state": "SC",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "12-0",
+        "name": "Courtney Waters",
+        "party": "democrat",
+        "votes": 388,
+        "percentage": 100,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "SC",
+      "district": "HD-113"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Dorchester County Council District 1 Special Election",
+    "state": "SC",
+    "type": "other",
+    "candidates": [
+      {
+        "id": "13-0",
+        "name": "Peter S. Smith Jr.",
+        "party": "democrat",
+        "votes": 1126,
+        "percentage": 65.5,
+        "incumbent": false
+      },
+      {
+        "id": "13-1",
+        "name": "George Bailey",
+        "party": "republican",
+        "votes": 592,
+        "percentage": 34.5,
+        "incumbent": false
+      }
+    ],
+    "precincts": {
+      "total": 100,
+      "reporting": 0,
+      "percentage": 0
+    },
+    "lastUpdated": "2025-11-15T20:31:02.463Z",
+    "called": false,
+    "isLive": true,
+    "metadata": {
+      "source": "CivicAPI",
+      "electionId": "2024-general",
+      "country": "US",
+      "province": "SC",
+      "district": "Dorchester"
+    }
+  }
+]

@@ -2,11 +2,12 @@ import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
 import useElectionStore from './store/electionStore';
+import { fetchScrapeConfig } from './utils/api';
 
 function App() {
   try {
-    const { settings } = useElectionStore();
-    
+    const { settings, updateScrapeConfig, setError } = useElectionStore();
+
     // Apply dark mode on initial load if needed
     useEffect(() => {
       try {
@@ -19,6 +20,32 @@ function App() {
         console.error('Error applying dark mode:', error);
       }
     }, [settings.darkMode]);
+
+    // Hydrate scrape config from the backend
+    useEffect(() => {
+      let isMounted = true;
+
+      const loadConfig = async () => {
+        try {
+          const config = await fetchScrapeConfig();
+          if (isMounted && config) {
+            updateScrapeConfig(config);
+            setError(null);
+          }
+        } catch (error) {
+          console.error('Failed to load scraper configuration:', error);
+          if (isMounted) {
+            setError('Unable to load scraper configuration. Start the backend server and try again.');
+          }
+        }
+      };
+
+      loadConfig();
+
+      return () => {
+        isMounted = false;
+      };
+    }, [setError, updateScrapeConfig]);
 
     return (
       <div className="min-h-screen bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-50">
